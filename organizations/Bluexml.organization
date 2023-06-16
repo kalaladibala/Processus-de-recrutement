@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Bluexml">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Antoine Laurent ">
+      <firstName>Antoine </firstName>
+      <lastName>Laurent</lastName>
+      <title>Mr</title>
+      <jobTitle>Consultant Senior</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>alaurent@bluexml.com</email>
+        <building>A</building>
+        <room>3</room>
+        <address>20 rue Mercoeur</address>
+        <zipCode>44 000</zipCode>
+        <city>Nantes</city>
+        <state>Loire Atlantique</state>
+        <country>France</country>
+        <website>https://www.bluexml.com/</website>
+      </professionalData>
+      <password encrypted="false">bluexml</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Elise davenne ">
+      <firstName>Elise</firstName>
+      <lastName>Davenne</lastName>
+      <title>Mrs</title>
+      <jobTitle>Ingénieure commerciale</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>echan@bluexml.com</email>
+        <building>A</building>
+        <room>3</room>
+        <address>20 rue Mercoeur</address>
+        <zipCode>44 000</zipCode>
+        <city>Nantes</city>
+        <state>Loire atlantique</state>
+        <country>France</country>
+        <website>https://www.bluexml.com/</website>
+      </professionalData>
+      <password encrypted="false">bluexml</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Eric Le Garec">
+      <firstName>Eric</firstName>
+      <lastName>Le Garec</lastName>
+      <title>Mr</title>
+      <jobTitle>CEO</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>elg@bluexml.com</email>
+        <building>A</building>
+        <room>3</room>
+        <address>20 rue Mercoeur</address>
+        <zipCode>44 000</zipCode>
+        <city>Nzntes </city>
+        <state>Loire atlantique</state>
+        <country>france</country>
+        <website>https://www.bluexml.com/</website>
+      </professionalData>
+      <password encrypted="false">bluexml</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Henry Quenau">
+      <firstName>Henry</firstName>
+      <lastName>Quenau</lastName>
+      <title>Mr</title>
+      <jobTitle>chef de projet</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>hqueneau@bluexml.com</email>
+        <building>A</building>
+        <room>3</room>
+        <address>20 rue Mercoeur</address>
+        <zipCode>44 000</zipCode>
+        <city>Nantes</city>
+        <state>Loire atlantique</state>
+        <country>France</country>
+        <website>https://www.bluexml.com/</website>
+      </professionalData>
+      <password encrypted="false">bluexml</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Joel Kalala">
+      <firstName>Joel</firstName>
+      <lastName>Kalala</lastName>
+      <title>Mr</title>
+      <jobTitle>Développeur bonita</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>jkalaladibala@bluexml.com</email>
+        <building>A</building>
+        <room>3</room>
+        <address>20 rue Mercoeur</address>
+        <zipCode>44 000</zipCode>
+        <city>Nantes</city>
+        <state>Loire atlantique</state>
+        <country>france</country>
+        <website>https://www.bluexml.com/</website>
+      </professionalData>
+      <password encrypted="false">bluxml</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Nicholas Alexandre">
+      <firstName>Nicholas</firstName>
+      <lastName>Alexandre</lastName>
+      <title>Mr</title>
+      <jobTitle>Directeur Commercial</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>nalexandre@bluexml.com</email>
+        <building>A</building>
+        <room>3</room>
+        <address>20 rue Mercoeur</address>
+        <zipCode>44 000</zipCode>
+        <city>Nantes</city>
+        <state>Loire atlantique</state>
+        <country>France</country>
+        <website>https://www.bluexml.com/</website>
+      </professionalData>
+      <password encrypted="false">bluexml</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Pascal Dubois">
+      <firstName>Pascal</firstName>
+      <lastName>Dubois</lastName>
+      <title>Mr</title>
+      <jobTitle>Directeur production &amp; conseil</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>pdubois@bluexml.com</email>
+        <building>A</building>
+        <room>3</room>
+        <address>20 rue Mercoeur</address>
+        <zipCode>44 000</zipCode>
+        <city>Nantes</city>
+        <state>Loire atlantqiue</state>
+        <country>France</country>
+        <website>https://www.bluexml.com/</website>
+      </professionalData>
+      <password encrypted="false">bluexml</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Prescilia Beguier">
+      <firstName>Prescilia</firstName>
+      <lastName>Beguier</lastName>
+      <title>Mr</title>
+      <jobTitle>Responsable RH</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>pbeguier@bluexml.com</email>
+        <building>a</building>
+        <room>3</room>
+        <address>20 rue Mercoeur</address>
+        <zipCode>44 000 </zipCode>
+        <city>Nantes </city>
+        <state>Loiree atlantique</state>
+        <country>France</country>
+        <website>https://www.bluexml.com/</website>
+      </professionalData>
+      <password encrypted="false">bluexml</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Régis Baudus">
+      <firstName>Régis </firstName>
+      <lastName>Baudus</lastName>
+      <title>Mr</title>
+      <jobTitle>CTO</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>rbaudu@bluexml.com</email>
+        <building>A</building>
+        <room>3</room>
+        <address>20 rue Mercoeur</address>
+        <zipCode>44 000</zipCode>
+        <city>Nantes</city>
+        <state>Loire atlantique</state>
+        <country>France</country>
+        <website>https://www.bluexml.com/</website>
+      </professionalData>
+      <password encrypted="false">bluexml</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Ladislas Chevalier">
+      <firstName>Ladislas</firstName>
+      <lastName>chevalier</lastName>
+      <title>Mr</title>
+      <jobTitle>Ingénieur étude et développement</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>lchevalier@bluexml.com</email>
+        <building>A</building>
+        <room>3</room>
+        <address>20 ure Mercoeur</address>
+        <zipCode>44 000</zipCode>
+        <city>Nantes</city>
+        <state>Loire atlantique</state>
+        <country>France</country>
+        <website>https://www.bluexml.com/</website>
+      </professionalData>
+      <password encrypted="false">bluexml</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Matthieu Vidot">
+      <firstName>Mathieu</firstName>
+      <lastName>vidot</lastName>
+      <title>Mr</title>
+      <jobTitle>Ingénieur informatique infrastructure et développment</jobTitle>
+      <personalData/>
+      <professionalData>
+        <email>mvidot@bluexml.com</email>
+        <building>A</building>
+        <room>3</room>
+        <address>20 rue Mercoeur</address>
+        <zipCode>44 000</zipCode>
+        <city>Nantes</city>
+        <state>Loire atlantqiue</state>
+        <country>France</country>
+        <website>https://www.bluexml.com/</website>
+      </professionalData>
+      <password encrypted="false">bluexml</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="member">
+      <displayName>Member</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="bluexml">
+      <displayName>Bluexml</displayName>
+    </group>
+    <group name="cdpro" parentPath="/bluexml">
+      <displayName>Chefferie de Projet</displayName>
+    </group>
+    <group name="codir" parentPath="/bluexml">
+      <displayName>Comité de direction</displayName>
+    </group>
+    <group name="fds" parentPath="/bluexml">
+      <displayName>Fonction de support</displayName>
+    </group>
+    <group name="conseil" parentPath="/bluexml">
+      <displayName>Pôle conseil</displayName>
+    </group>
+    <group name="commerce" parentPath="/bluexml">
+      <displayName>Pôle de commerce</displayName>
+    </group>
+    <group name="ingé" parentPath="/bluexml">
+      <displayName>Pôle ingénierie</displayName>
+    </group>
+    <group name="si" parentPath="/bluexml">
+      <displayName>Pôle SI</displayName>
+    </group>
+    <group name="rm" parentPath="/bluexml">
+      <displayName>Référents Métiers</displayName>
+    </group>
+    <group name="rdp" parentPath="/bluexml">
+      <displayName>Responsabnle de Pôle</displayName>
+    </group>
+    <group name="rh" parentPath="/bluexml">
+      <displayName>Ressources humaines</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Antoine Laurent </userName>
+      <roleName>member</roleName>
+      <groupName>conseil</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Elise davenne </userName>
+      <roleName>member</roleName>
+      <groupName>commerce</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Henry Quenau</userName>
+      <roleName>member</roleName>
+      <groupName>cdpro</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Joel Kalala</userName>
+      <roleName>member</roleName>
+      <groupName>rdp</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Nicholas Alexandre</userName>
+      <roleName>member</roleName>
+      <groupName>cdpro</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Pascal Dubois</userName>
+      <roleName>member</roleName>
+      <groupName>cdpro</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Prescilia Beguier</userName>
+      <roleName>member</roleName>
+      <groupName>rh</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Régis Baudus</userName>
+      <roleName>member</roleName>
+      <groupName>codir</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Eric Le Garec</userName>
+      <roleName>member</roleName>
+      <groupName>cdpro</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Eric Le Garec</userName>
+      <roleName>member</roleName>
+      <groupName>codir</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Eric Le Garec</userName>
+      <roleName>member</roleName>
+      <groupName>fds</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Eric Le Garec</userName>
+      <roleName>member</roleName>
+      <groupName>conseil</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Eric Le Garec</userName>
+      <roleName>member</roleName>
+      <groupName>commerce</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Eric Le Garec</userName>
+      <roleName>member</roleName>
+      <groupName>ingé</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Eric Le Garec</userName>
+      <roleName>member</roleName>
+      <groupName>si</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Eric Le Garec</userName>
+      <roleName>member</roleName>
+      <groupName>rdp</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Ladislas Chevalier</userName>
+      <roleName>member</roleName>
+      <groupName>ingé</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Matthieu Vidot</userName>
+      <roleName>member</roleName>
+      <groupName>si</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Nicholas Alexandre</userName>
+      <roleName>member</roleName>
+      <groupName>codir</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Nicholas Alexandre</userName>
+      <roleName>member</roleName>
+      <groupName>fds</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Nicholas Alexandre</userName>
+      <roleName>member</roleName>
+      <groupName>conseil</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Nicholas Alexandre</userName>
+      <roleName>member</roleName>
+      <groupName>commerce</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Nicholas Alexandre</userName>
+      <roleName>member</roleName>
+      <groupName>ingé</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Nicholas Alexandre</userName>
+      <roleName>member</roleName>
+      <groupName>si</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Nicholas Alexandre</userName>
+      <roleName>member</roleName>
+      <groupName>rdp</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Pascal Dubois</userName>
+      <roleName>member</roleName>
+      <groupName>codir</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Pascal Dubois</userName>
+      <roleName>member</roleName>
+      <groupName>fds</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Pascal Dubois</userName>
+      <roleName>member</roleName>
+      <groupName>conseil</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Pascal Dubois</userName>
+      <roleName>member</roleName>
+      <groupName>commerce</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Pascal Dubois</userName>
+      <roleName>member</roleName>
+      <groupName>ingé</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Pascal Dubois</userName>
+      <roleName>member</roleName>
+      <groupName>si</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Pascal Dubois</userName>
+      <roleName>member</roleName>
+      <groupName>rdp</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Régis Baudus</userName>
+      <roleName>member</roleName>
+      <groupName>ingé</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Régis Baudus</userName>
+      <roleName>member</roleName>
+      <groupName>rm</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Ladislas Chevalier</userName>
+      <roleName>member</roleName>
+      <groupName>rm</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Pascal Dubois</userName>
+      <roleName>member</roleName>
+      <groupName>rm</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+  </memberships>
+</organization:Organization>
