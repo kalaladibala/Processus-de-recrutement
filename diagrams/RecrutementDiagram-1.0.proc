@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connectorconfiguration="http://wwww.bonitasoft.org/model/connector/configuration" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.1" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:parameter="http://www.bonitasoft.org/ns/studio/parameter" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connectorconfiguration="http://wwww.bonitasoft.org/model/connector/configuration" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:parameter="http://www.bonitasoft.org/ns/studio/parameter" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_EmFoAPL7Ee2Okv_VT1NJZQ" name="RecrutementDiagram" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_EmFoAfL7Ee2Okv_VT1NJZQ" name="Recrutement">
       <elements xmi:type="process:Lane" xmi:id="_XDqZ0PSsEe2vGcv9NmZzZQ" name="CODIR" actor="_AJp9cPQCEe2K6snil6N1bg">
@@ -1809,64 +1809,6 @@
           <data xmi:type="process:Data" xmi:id="_5LkVwP-NEe237-X153iZcw" name="test2" dataType="_EmFoMfL7Ee2Okv_VT1NJZQ">
             <defaultValue xmi:type="expression:Expression" xmi:id="_5LkVwf-NEe237-X153iZcw" content=""/>
           </data>
-          <connectors xmi:type="process:Connector" xmi:id="_6_RvEP-NEe237-X153iZcw" name="uploadFicheDePoste" definitionId="cmis-uploadnewdocuments" event="ON_FINISH" definitionVersion="1.0.0">
-            <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_6_RvEf-NEe237-X153iZcw" definitionId="cmis-uploadnewdocuments" version="1.0.0" modelVersion="7.12.0-004">
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_6_RvEv-NEe237-X153iZcw" key="username">
-                <expression xmi:type="expression:Expression" xmi:id="_6_RvE_-NEe237-X153iZcw" name="username()" content="alfrecoUsername" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_6_RvFP-NEe237-X153iZcw" name="alfrecoUsername" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_6_RvFf-NEe237-X153iZcw" key="password">
-                <expression xmi:type="expression:Expression" xmi:id="_6_RvFv-NEe237-X153iZcw" name="newScript()" content="alfescoPassword" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_6_RvF_-NEe237-X153iZcw" name="alfescoPassword" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_6_RvGP-NEe237-X153iZcw" key="url">
-                <expression xmi:type="expression:Expression" xmi:id="_6_RvGf-NEe237-X153iZcw" name="url()" content="alfrescoCmisUrl" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_6_RvGv-NEe237-X153iZcw" name="alfrescoCmisUrl" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_6_RvG_-NEe237-X153iZcw" key="repository">
-                <expression xmi:type="expression:Expression" xmi:id="_6_RvHP-NEe237-X153iZcw" name="repository()" content="alfrescoRepositoryName" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_6_RvHf-NEe237-X153iZcw" name="alfrescoRepositoryName" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_6_RvHv-NEe237-X153iZcw" key="binding_type">
-                <expression xmi:type="expression:Expression" xmi:id="_6_RvH_-NEe237-X153iZcw" name="atompub" content="atompub" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_6_RvIP-NEe237-X153iZcw" key="wsObjectServiceUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_6_RvIf-NEe237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_6_RvIv-NEe237-X153iZcw" key="wsObjectServiceEndpointUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_6_RvI_-NEe237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_6_RvJP-NEe237-X153iZcw" key="wsRepositoryServiceUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_6_RvJf-NEe237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_6_RvJv-NEe237-X153iZcw" key="wsRepositoryServiceEndpointUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_6_RvJ_-NEe237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_6_RvKP-NEe237-X153iZcw" key="documents">
-                <expression xmi:type="expression:Expression" xmi:id="_6_RvKf-NEe237-X153iZcw" name="ficheDePoste" content="ficheDePoste" type="TYPE_DOCUMENT" returnType="java.util.List" returnTypeFixed="true">
-                  <referencedElements xmi:type="process:Document" xmi:id="_rW-IMP-zEe237-X153iZcw" name="ficheDePoste" multiple="true"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_6_RvK_-NEe237-X153iZcw" key="folder_path">
-                <expression xmi:type="expression:Expression" xmi:id="_6_RvLP-NEe237-X153iZcw" name="folder_path()" content="parentFoder" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_yoE-UP-zEe237-X153iZcw" name="parentFoder" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-            </configuration>
-            <outputs xmi:type="expression:Operation" xmi:id="_6_RvLv-NEe237-X153iZcw">
-              <leftOperand xmi:type="expression:Expression" xmi:id="_6_RvL_-NEe237-X153iZcw" name="create" content="create" type="TYPE_VARIABLE">
-                <referencedElements xmi:type="process:Data" xmi:id="_bEaYIP-REe237-X153iZcw" name="create" dataType="_EmFoMfL7Ee2Okv_VT1NJZQ"/>
-              </leftOperand>
-              <rightOperand xmi:type="expression:Expression" xmi:id="_6_RvMf-NEe237-X153iZcw" name="newScript()" content="document_ids" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-                <referencedElements xmi:type="definition:Output" xmi:id="_6_RvMv-NEe237-X153iZcw" name="document_ids" type="java.util.List"/>
-              </rightOperand>
-              <operator xmi:type="expression:Operator" xmi:id="_6_RvM_-NEe237-X153iZcw" type="ASSIGNMENT"/>
-            </outputs>
-          </connectors>
           <loopCondition xmi:type="expression:Expression" xmi:id="_LsShpPl9Ee2zopF6ed3eEw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_LsShpfl9Ee2zopF6ed3eEw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_LsShpvl9Ee2zopF6ed3eEw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
@@ -1880,64 +1822,6 @@
           <data xmi:type="process:Data" xmi:id="_NXKtMARAEe64C8JJzfBMbg" name="offre" dataType="_EmFoMfL7Ee2Okv_VT1NJZQ">
             <defaultValue xmi:type="expression:Expression" xmi:id="_NXKtMQRAEe64C8JJzfBMbg" name="" content=""/>
           </data>
-          <connectors xmi:type="process:Connector" xmi:id="_LL0ZsP-PEe237-X153iZcw" name="uploadOffreEmploi" definitionId="cmis-uploadnewdocuments" event="ON_FINISH" definitionVersion="1.0.0">
-            <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_LL0Zsf-PEe237-X153iZcw" definitionId="cmis-uploadnewdocuments" version="1.0.0" modelVersion="7.12.0-004">
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_LL0Zsv-PEe237-X153iZcw" key="username">
-                <expression xmi:type="expression:Expression" xmi:id="_LL0Zs_-PEe237-X153iZcw" name="username()" content="alfrecoUsername" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_LL0ZtP-PEe237-X153iZcw" name="alfrecoUsername" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_LL0Ztf-PEe237-X153iZcw" key="password">
-                <expression xmi:type="expression:Expression" xmi:id="_LL0Ztv-PEe237-X153iZcw" name="newScript()" content="alfescoPassword" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_LL0Zt_-PEe237-X153iZcw" name="alfescoPassword" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_LL0ZuP-PEe237-X153iZcw" key="url">
-                <expression xmi:type="expression:Expression" xmi:id="_LL0Zuf-PEe237-X153iZcw" name="url()" content="alfrescoRepositoryName" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_LL0Zuv-PEe237-X153iZcw" name="alfrescoRepositoryName" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_LL0Zu_-PEe237-X153iZcw" key="repository">
-                <expression xmi:type="expression:Expression" xmi:id="_LL0ZvP-PEe237-X153iZcw" name="repository()" content="alfrescoRepositoryName" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_47QMkP-zEe237-X153iZcw" name="alfrescoRepositoryName" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_LL0Zvv-PEe237-X153iZcw" key="binding_type">
-                <expression xmi:type="expression:Expression" xmi:id="_LL0Zv_-PEe237-X153iZcw" name="atompub" content="atompub" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_LL0ZwP-PEe237-X153iZcw" key="wsObjectServiceUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_LL0Zwf-PEe237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_LL0Zwv-PEe237-X153iZcw" key="wsObjectServiceEndpointUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_LL0Zw_-PEe237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_LL0ZxP-PEe237-X153iZcw" key="wsRepositoryServiceUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_LL0Zxf-PEe237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_LL0Zxv-PEe237-X153iZcw" key="wsRepositoryServiceEndpointUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_LL0Zx_-PEe237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_LL0ZyP-PEe237-X153iZcw" key="documents">
-                <expression xmi:type="expression:Expression" xmi:id="_LL0Zyf-PEe237-X153iZcw" name="offreEmploi" content="offreEmploi" type="DOCUMENT_REF_TYPE" returnType="java.util.List" returnTypeFixed="true">
-                  <referencedElements xmi:type="process:Document" xmi:id="_LL0Zyv-PEe237-X153iZcw" name="offreEmploi" multiple="true"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_LL0Zy_-PEe237-X153iZcw" key="folder_path">
-                <expression xmi:type="expression:Expression" xmi:id="_LL0ZzP-PEe237-X153iZcw" name="folder_path()" content="parentFoder" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_LL0Zzf-PEe237-X153iZcw" name="parentFoder" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-            </configuration>
-            <outputs xmi:type="expression:Operation" xmi:id="_LL0Zzv-PEe237-X153iZcw">
-              <leftOperand xmi:type="expression:Expression" xmi:id="_LL0Zz_-PEe237-X153iZcw" name="offre" content="offre" type="TYPE_VARIABLE">
-                <referencedElements xmi:type="process:Data" xmi:id="_Njyz8ARAEe64C8JJzfBMbg" name="offre" dataType="_EmFoMfL7Ee2Okv_VT1NJZQ"/>
-              </leftOperand>
-              <rightOperand xmi:type="expression:Expression" xmi:id="_LL0Z0f-PEe237-X153iZcw" name="newScript()" content="document_ids" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-                <referencedElements xmi:type="definition:Output" xmi:id="_LL0Z0v-PEe237-X153iZcw" name="document_ids" type="java.util.List"/>
-              </rightOperand>
-              <operator xmi:type="expression:Operator" xmi:id="_LL0Z0_-PEe237-X153iZcw" type="ASSIGNMENT"/>
-            </outputs>
-          </connectors>
           <loopCondition xmi:type="expression:Expression" xmi:id="_ytxhE_7LEe25j8Nq4EccZQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_ytxhFP7LEe25j8Nq4EccZQ" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_ytxhFf7LEe25j8Nq4EccZQ" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
@@ -1948,65 +1832,6 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_cRMnUf7AEe25j8Nq4EccZQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_cRMnUP7AEe25j8Nq4EccZQ" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_cRMnUv7AEe25j8Nq4EccZQ" name="" content="" returnTypeFixed="true"/>
-          <connectors xmi:type="process:Connector" xmi:id="_ma_8cP--Ee237-X153iZcw" name="uploadCR" definitionId="cmis-uploadnewdocument" event="ON_FINISH" definitionVersion="2.0.1">
-            <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_ma_8cf--Ee237-X153iZcw" definitionId="cmis-uploadnewdocument" version="2.0.1" modelVersion="7.12.0-004">
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_ma_8cv--Ee237-X153iZcw" key="username">
-                <expression xmi:type="expression:Expression" xmi:id="_ma_8c_--Ee237-X153iZcw" name="username()" content="alfrecoUsername" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_ma_8dP--Ee237-X153iZcw" name="alfrecoUsername" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_ma_8df--Ee237-X153iZcw" key="password">
-                <expression xmi:type="expression:Expression" xmi:id="_ma_8dv--Ee237-X153iZcw" name="newScript()" content="alfescoPassword" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_ma_8d_--Ee237-X153iZcw" name="alfescoPassword" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_ma_8eP--Ee237-X153iZcw" key="url">
-                <expression xmi:type="expression:Expression" xmi:id="_ma_8ef--Ee237-X153iZcw" name="url()" content="alfrescoCmisUrl" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_ma_8ev--Ee237-X153iZcw" name="alfrescoCmisUrl" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_ma_8e_--Ee237-X153iZcw" key="repository">
-                <expression xmi:type="expression:Expression" xmi:id="_ma_8fP--Ee237-X153iZcw" name="repository()" content="alfrescoRepositoryName" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_ma_8ff--Ee237-X153iZcw" name="alfrescoRepositoryName" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_ma_8fv--Ee237-X153iZcw" key="binding_type">
-                <expression xmi:type="expression:Expression" xmi:id="_ma_8f_--Ee237-X153iZcw" name="atompub" content="atompub" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_ma_8gP--Ee237-X153iZcw" key="wsObjectServiceUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_ma_8gf--Ee237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_ma_8gv--Ee237-X153iZcw" key="wsObjectServiceEndpointUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_ma_8g_--Ee237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_ma_8hP--Ee237-X153iZcw" key="wsRepositoryServiceUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_ma_8hf--Ee237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_ma_8hv--Ee237-X153iZcw" key="wsRepositoryServiceEndpointUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_ma_8h_--Ee237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_ma_8iP--Ee237-X153iZcw" key="document">
-                <expression xmi:type="expression:Expression" xmi:id="_ma_8if--Ee237-X153iZcw" name="document()" content="     " interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_ma_8iv--Ee237-X153iZcw" key="folder_path">
-                <expression xmi:type="expression:Expression" xmi:id="_ma_8i_--Ee237-X153iZcw" name="folder_path()" content="parentFoder" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_ma_8jP--Ee237-X153iZcw" name="parentFoder" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_ma_8jf--Ee237-X153iZcw" key="destinationName">
-                <expression xmi:type="expression:Expression" xmi:id="_ma_8jv--Ee237-X153iZcw" name="myFile.txt" content="myFile.txt" returnTypeFixed="true"/>
-              </parameters>
-            </configuration>
-            <outputs xmi:type="expression:Operation" xmi:id="_ma_8j_--Ee237-X153iZcw">
-              <leftOperand xmi:type="expression:Expression" xmi:id="_ma_8kP--Ee237-X153iZcw" name="create" content="create" type="TYPE_VARIABLE">
-                <referencedElements xmi:type="process:Data" xmi:id="_ma_8kf--Ee237-X153iZcw" name="create" dataType="_EmFoMfL7Ee2Okv_VT1NJZQ"/>
-              </leftOperand>
-              <rightOperand xmi:type="expression:Expression" xmi:id="_ma_8kv--Ee237-X153iZcw" name="document_id" content="document_id" type="CONNECTOR_OUTPUT_TYPE">
-                <referencedElements xmi:type="definition:Output" xmi:id="_ma_8k_--Ee237-X153iZcw" name="document_id" type="java.lang.String"/>
-              </rightOperand>
-              <operator xmi:type="expression:Operator" xmi:id="_ma_8lP--Ee237-X153iZcw" type="ASSIGNMENT"/>
-            </outputs>
-          </connectors>
           <loopCondition xmi:type="expression:Expression" xmi:id="_cRMnU_7AEe25j8Nq4EccZQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_cRMnVP7AEe25j8Nq4EccZQ" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_cRMnVf7AEe25j8Nq4EccZQ" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
@@ -2151,64 +1976,6 @@
           <data xmi:type="process:Data" xmi:id="_FLdU0P8CEe25j8Nq4EccZQ" name="test" dataType="_EmFoMfL7Ee2Okv_VT1NJZQ">
             <defaultValue xmi:type="expression:Expression" xmi:id="_FLdU0f8CEe25j8Nq4EccZQ" name="init_test()" content="''" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT"/>
           </data>
-          <connectors xmi:type="process:Connector" xmi:id="_wPggEP-VEe237-X153iZcw" name="uploadScorecard" definitionId="cmis-uploadnewdocuments" event="ON_FINISH" definitionVersion="1.0.0">
-            <configuration xmi:type="connectorconfiguration:ConnectorConfiguration" xmi:id="_wPggEf-VEe237-X153iZcw" definitionId="cmis-uploadnewdocuments" version="1.0.0" modelVersion="7.12.0-004">
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_wPggEv-VEe237-X153iZcw" key="username">
-                <expression xmi:type="expression:Expression" xmi:id="_wPggE_-VEe237-X153iZcw" name="username()" content="alfrecoUsername" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_wPggFP-VEe237-X153iZcw" name="alfrecoUsername" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_wPggFf-VEe237-X153iZcw" key="password">
-                <expression xmi:type="expression:Expression" xmi:id="_wPggFv-VEe237-X153iZcw" name="newScript()" content="alfescoPassword" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_wPggF_-VEe237-X153iZcw" name="alfescoPassword" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_wPggGP-VEe237-X153iZcw" key="url">
-                <expression xmi:type="expression:Expression" xmi:id="_wPggGf-VEe237-X153iZcw" name="url()" content="alfrescoCmisUrl" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_wPggGv-VEe237-X153iZcw" name="alfrescoCmisUrl" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_wPggG_-VEe237-X153iZcw" key="repository">
-                <expression xmi:type="expression:Expression" xmi:id="_wPggHP-VEe237-X153iZcw" name="repository()" content="alfrescoRepositoryName" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_wPggHf-VEe237-X153iZcw" name="alfrescoRepositoryName" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_wPggHv-VEe237-X153iZcw" key="binding_type">
-                <expression xmi:type="expression:Expression" xmi:id="_wPggH_-VEe237-X153iZcw" name="atompub" content="atompub" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_wPggIP-VEe237-X153iZcw" key="wsObjectServiceUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_wPggIf-VEe237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_wPggIv-VEe237-X153iZcw" key="wsObjectServiceEndpointUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_wPggI_-VEe237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_wPggJP-VEe237-X153iZcw" key="wsRepositoryServiceUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_wPggJf-VEe237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_wPggJv-VEe237-X153iZcw" key="wsRepositoryServiceEndpointUrl">
-                <expression xmi:type="expression:Expression" xmi:id="_wPggJ_-VEe237-X153iZcw" name="" content="" returnTypeFixed="true"/>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_wPggKP-VEe237-X153iZcw" key="documents">
-                <expression xmi:type="expression:Expression" xmi:id="_wPggKf-VEe237-X153iZcw" name="documents()" content="scorecard" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object" returnTypeFixed="true">
-                  <referencedElements xmi:type="process:Document" xmi:id="_EPcwMAQ_Ee64C8JJzfBMbg" name="scorecard"/>
-                </expression>
-              </parameters>
-              <parameters xmi:type="connectorconfiguration:ConnectorParameter" xmi:id="_wPggK_-VEe237-X153iZcw" key="folder_path">
-                <expression xmi:type="expression:Expression" xmi:id="_wPggLP-VEe237-X153iZcw" name="folder_path()" content="parentFoder" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnTypeFixed="true">
-                  <referencedElements xmi:type="parameter:Parameter" xmi:id="_wPggLf-VEe237-X153iZcw" name="parentFoder" typeClassname="java.lang.String"/>
-                </expression>
-              </parameters>
-            </configuration>
-            <outputs xmi:type="expression:Operation" xmi:id="_wPggLv-VEe237-X153iZcw">
-              <leftOperand xmi:type="expression:Expression" xmi:id="_wPggL_-VEe237-X153iZcw" name="test" content="test" type="TYPE_VARIABLE">
-                <referencedElements xmi:type="process:Data" xmi:id="_wPggMP-VEe237-X153iZcw" name="test" dataType="_EmFoMfL7Ee2Okv_VT1NJZQ"/>
-              </leftOperand>
-              <rightOperand xmi:type="expression:Expression" xmi:id="_wPggMf-VEe237-X153iZcw" name="newScript()" content="document_ids" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-                <referencedElements xmi:type="definition:Output" xmi:id="_wPggMv-VEe237-X153iZcw" name="document_ids" type="java.util.List"/>
-              </rightOperand>
-              <operator xmi:type="expression:Operator" xmi:id="_wPggM_-VEe237-X153iZcw" type="ASSIGNMENT"/>
-            </outputs>
-          </connectors>
           <loopCondition xmi:type="expression:Expression" xmi:id="_TJlAU_mCEe2zopF6ed3eEw" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_TJlAVPmCEe2zopF6ed3eEw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_TJlAVfmCEe2zopF6ed3eEw" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
