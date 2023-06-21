@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "HomeForm",
   "name" : "HomeForm",
-  "lastUpdate" : 1685449189502,
+  "lastUpdate" : 1687266455715,
   "rows" : [
     [
       {
@@ -224,7 +224,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Submit"
+                    "value" : "Valider"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -270,6 +270,27 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable"
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable"
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
                 "reference" : "9c9883c8-1e06-4c88-af8c-134e40f70552",

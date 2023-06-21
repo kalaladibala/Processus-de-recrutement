@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "receptionCvForm",
   "name" : "receptionCvForm",
-  "lastUpdate" : 1685029538669,
+  "lastUpdate" : 1687341177721,
   "rows" : [
     [
       {
@@ -160,6 +160,10 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "allowHTML" : {
+                    "type" : "constant",
+                    "value" : false
                   }
                 },
                 "reference" : "195f0adf-41aa-403e-8627-f58fb2041185",
@@ -202,7 +206,7 @@
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 4,
+                        "md" : 12,
                         "sm" : 12,
                         "xs" : 12,
                         "lg" : 4
@@ -282,14 +286,16 @@
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
-                    },
+                    }
+                  ],
+                  [
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 4,
+                        "md" : 12,
                         "sm" : 12,
                         "xs" : 12,
-                        "lg" : 4
+                        "lg" : 12
                       },
                       "propertyValues" : {
                         "labelHidden" : {
@@ -366,14 +372,16 @@
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
-                    },
+                    }
+                  ],
+                  [
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 4,
+                        "md" : 12,
                         "sm" : 12,
                         "xs" : 12,
-                        "lg" : 4
+                        "lg" : 12
                       },
                       "propertyValues" : {
                         "hidden" : {
@@ -450,7 +458,7 @@
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 4,
+                        "md" : 12,
                         "sm" : 12,
                         "xs" : 12,
                         "lg" : 6
