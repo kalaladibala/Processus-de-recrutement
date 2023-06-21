@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "compteRenduFormE1",
   "name" : "compteRenduFormE1",
-  "lastUpdate" : 1686666476747,
+  "lastUpdate" : 1687269991330,
   "rows" : [
     [
       {
@@ -330,6 +330,13 @@
                               "url" : {
                                 "type" : "constant",
                                 "value" : "../API/formFileUpload"
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "errorContent" : {
+                                "type" : "variable"
                               }
                             },
                             "reference" : "2bd5588c-ec69-495f-b806-e66613008565",

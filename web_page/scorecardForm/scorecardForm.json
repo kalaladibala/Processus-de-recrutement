@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "scorecardForm",
   "name" : "scorecardForm",
-  "lastUpdate" : 1686665979958,
+  "lastUpdate" : 1687266032459,
   "rows" : [
     [
       {
@@ -271,6 +271,10 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
                       "reference" : "2aaa4b9e-6039-4698-bef5-7a8092c305cb",
