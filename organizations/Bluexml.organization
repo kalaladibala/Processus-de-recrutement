@@ -227,6 +227,9 @@
     <role name="member">
       <displayName>Member</displayName>
     </role>
+    <role name="Administrator">
+      <displayName>Administrator</displayName>
+    </role>
   </roles>
   <groups>
     <group name="bluexml">
@@ -304,12 +307,6 @@
       <userName>Prescilia Beguier</userName>
       <roleName>member</roleName>
       <groupName>rh</groupName>
-      <groupParentPath>/bluexml</groupParentPath>
-    </membership>
-    <membership>
-      <userName>Régis Baudus</userName>
-      <roleName>member</roleName>
-      <groupName>codir</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
@@ -479,6 +476,17 @@
       <roleName>member</roleName>
       <groupName>rm</groupName>
       <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Nicholas Alexandre</userName>
+      <roleName>member</roleName>
+      <groupName>rm</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Joel Kalala</userName>
+      <roleName>Administrator</roleName>
+      <groupName>bluexml</groupName>
     </membership>
   </memberships>
 </organization:Organization>
