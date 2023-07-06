@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "ficheDePosteForm",
   "name" : "ficheDePosteForm",
-  "lastUpdate" : 1685438126326,
+  "lastUpdate" : 1688648593575,
   "rows" : [
     [
       {
@@ -151,7 +151,7 @@
                   },
                   "required" : {
                     "type" : "constant",
-                    "value" : false
+                    "value" : true
                   },
                   "allowHTML" : {
                     "type" : "constant",
@@ -213,8 +213,8 @@
                     "type" : "variable"
                   },
                   "hidden" : {
-                    "type" : "constant",
-                    "value" : false
+                    "type" : "expression",
+                    "value" : "formInput.response !== \"oui\""
                   },
                   "cssClasses" : {
                     "type" : "constant",

@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "CompteRenduEntretien3",
-  "name" : "CompteRenduEntretien3",
-  "lastUpdate" : 1685435145307,
+  "id" : "EntretienTechniqueForm",
+  "name" : "EntretienTechniqueForm",
+  "lastUpdate" : 1688652145427,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "94ca41f4-bc33-4324-b65f-2e32e1a31088",
+        "reference" : "d0350750-8f64-4b1d-983e-a229bc7683cc",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -39,7 +39,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "{{ task.displayName }}"
+                  "value" : "Entretien Technique"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -48,9 +48,13 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
                 }
               },
-              "reference" : "d8b9f737-bf99-4466-afef-52923b120a0c",
+              "reference" : "1a5e9178-34de-4f2c-8c33-4a88f694fd23",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -96,9 +100,21 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
                 }
               },
-              "reference" : "b685e72e-237b-4dfb-8215-8298e834dad7",
+              "reference" : "7b584b88-e685-40a1-ae50-a92ff7a22c1d",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -113,8 +129,17 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
-        "reference" : "ada5948b-a471-4262-b84c-4ae4a0ff6bcc",
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "19547348-9a4b-4d78-98dd-11e23ae788a5",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,10 +148,51 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "18d201bb-dd63-4c63-a76a-1b69ea09b097",
+          "reference" : "e813cd5a-3284-4804-962c-74d4e8ad53cf",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Candidat"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "58264d61-701e-4f18-8668-0b71bc66a41b",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
+              }
+            ],
             [
               {
                 "type" : "container",
@@ -153,7 +219,350 @@
                     "value" : 12
                   }
                 },
-                "reference" : "ca731120-dc96-44a2-8751-807286e82f97",
+                "reference" : "9e8302fd-1c21-4df7-919f-2a2f11b812f3",
+                "hasValidationError" : false,
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 3,
+                        "sm" : 3,
+                        "xs" : 3,
+                        "lg" : 3
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Nom"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{candidat.nom}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        }
+                      },
+                      "reference" : "d761a0e8-5c29-47d3-8309-1f1c2f58dbf2",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 3,
+                        "sm" : 3,
+                        "xs" : 3,
+                        "lg" : 3
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Prénom"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{candidat.prenom}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        }
+                      },
+                      "reference" : "ed921afa-b9f3-4141-9aec-4b88d37db5b0",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 3,
+                        "sm" : 3,
+                        "xs" : 3,
+                        "lg" : 3
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Poste"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{candidat.poste}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        }
+                      },
+                      "reference" : "9a0b6bac-5e7d-4b76-b218-700e8fb9b1b7",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 3,
+                        "sm" : 3,
+                        "xs" : 3,
+                        "lg" : 3
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Réception"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{process.dateE2|uiDate}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 10
+                        }
+                      },
+                      "reference" : "ed816146-8350-42e2-8d00-cdee6a8ac19d",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "xs" : 12,
+                        "sm" : 12,
+                        "md" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "disabled" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "required" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Avis"
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        },
+                        "inline" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "availableValues" : {
+                          "type" : "expression",
+                          "value" : "avisData"
+                        },
+                        "displayedKey" : {
+                          "type" : "constant",
+                          "value" : "avisKey"
+                        },
+                        "returnedKey" : {
+                          "type" : "constant",
+                          "value" : "avisDisplay"
+                        },
+                        "selectedValue" : {
+                          "type" : "variable",
+                          "value" : "candidat.avis"
+                        }
+                      },
+                      "reference" : "fc631ff4-4c04-4481-aa23-8d3c23872991",
+                      "hasValidationError" : false,
+                      "id" : "pbRadioButtons"
+                    }
+                  ]
+                ]
+              }
+            ],
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "repeatedCollection" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "1708f953-a422-4597-b1ab-e1388f04e29c",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -181,7 +590,7 @@
                         },
                         "text" : {
                           "type" : "interpolation",
-                          "value" : "Compte Rendu E3"
+                          "value" : "Compte Rendu Entretien Technique"
                         },
                         "alignment" : {
                           "type" : "constant",
@@ -190,9 +599,13 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
-                      "reference" : "6bd51bd4-ce94-48a8-85ad-0b6f5c198830",
+                      "reference" : "d495df9a-58bd-477c-aa8d-871a3e1121f2",
                       "hasValidationError" : false,
                       "id" : "pbTitle",
                       "description" : ""
@@ -210,7 +623,7 @@
                       "propertyValues" : {
                         "repeatedCollection" : {
                           "type" : "variable",
-                          "value" : "context.compteRenduE3_ref"
+                          "value" : "context.compteRenduE2_ref"
                         },
                         "hidden" : {
                           "type" : "constant",
@@ -225,7 +638,7 @@
                           "value" : 12
                         }
                       },
-                      "reference" : "7b99324b-2bda-42c5-bd82-a2e07807b88b",
+                      "reference" : "75d4ffe5-3646-4374-9d22-169b98b13a2d",
                       "hasValidationError" : false,
                       "id" : "pbContainer",
                       "rows" : [
@@ -267,7 +680,7 @@
                                 "type" : "constant"
                               }
                             },
-                            "reference" : "8d786464-2b1b-4ad8-a062-8afa0d9f4623",
+                            "reference" : "4de35133-a925-428d-82a8-a5431e3ab17f",
                             "hasValidationError" : false,
                             "id" : "pbFileViewer",
                             "description" : ""
@@ -305,7 +718,7 @@
                               },
                               "label" : {
                                 "type" : "interpolation",
-                                "value" : "Compte Rendu E3"
+                                "value" : "Compte Rendu E2"
                               },
                               "placeholder" : {
                                 "type" : "constant",
@@ -328,7 +741,7 @@
                                 "value" : "../API/formFileUpload"
                               }
                             },
-                            "reference" : "040c7eed-3902-4523-8c4f-8d5bb9c8ac0b",
+                            "reference" : "1c45b3c3-0def-4f59-b152-ac331cb18577",
                             "hasValidationError" : false,
                             "id" : "pbUpload",
                             "description" : ""
@@ -404,7 +817,7 @@
                                 "value" : 1
                               }
                             },
-                            "reference" : "6ac38788-6abb-4fe0-83b6-d371b3932617",
+                            "reference" : "56223edc-4afc-4ad6-8018-e5e4a9ad29f2",
                             "hasValidationError" : false,
                             "id" : "pbButton",
                             "description" : ""
@@ -465,7 +878,7 @@
                         },
                         "collectionToModify" : {
                           "type" : "variable",
-                          "value" : "context.compteRenduE3_ref"
+                          "value" : "context.compteRenduE2_ref"
                         },
                         "valueToAdd" : {
                           "type" : "expression"
@@ -483,7 +896,7 @@
                           "value" : 12
                         }
                       },
-                      "reference" : "d905f0b2-24ea-4547-9d78-dea3ab20eb50",
+                      "reference" : "9bd94184-6a8d-4af7-95c1-8b56f806def3",
                       "hasValidationError" : false,
                       "id" : "pbButton",
                       "description" : ""
@@ -567,7 +980,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "14aaa4fa-6829-4bcf-9791-148ba94206f6",
+                "reference" : "7532245c-91fe-4217-b011-7b4e372b1358",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -619,7 +1032,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "5265c172-36e6-4772-b793-997863a20d07",
+                "reference" : "405fc1ce-488c-4d59-8adc-391145d8c3d0",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -632,14 +1045,14 @@
   ],
   "assets" : [
     {
-      "id" : "86b90872-7716-4bac-ab73-95e54ef46957",
+      "id" : "0bd483c1-09c7-43d7-bfcd-1f21269c0b27",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "01f85570-50c8-4aa9-80fb-6bf5078480a1",
+      "id" : "f1f7fd2d-6d29-458f-b128-faec2637a827",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
@@ -648,6 +1061,13 @@
   ],
   "inactiveAssets" : [ ],
   "variables" : {
+    "process" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.process_ref.link}}"
+      ],
+      "exposed" : false
+    },
     "task" : {
       "type" : "url",
       "value" : [
@@ -673,14 +1093,22 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.context ){",
+        "if( $data.candidat && $data.context && $data.process ){",
         "\treturn {",
-        "\t\tcompteRenduE3DocumentInput: $data.context.compteRenduE3_ref.map( doc => ({",
+        "\t\t//map candidat variable to expected task contract input",
+        "\t\tcandidatInput: {",
+        "\t\t\tavis: $data.candidat.avis !== undefined ? $data.candidat.avis : null",
+        "\t\t},",
+        "\t\tcompteRenduE2DocumentInput: $data.context.compteRenduE2_ref.map( doc => ({",
         "\t\t\tid : doc.id ? doc.id.toString() : null,",
         "\t\t\tfilename : doc.newValue && doc.newValue.filename ? doc.newValue.filename : null,",
         "\t\t\ttempPath : doc.newValue && doc.newValue.tempPath ? doc.newValue.tempPath : null,",
         "\t\t\tcontentType : doc.newValue && doc.newValue.contentType ? doc.newValue.contentType : null",
-        "\t\t}))",
+        "\t\t})),",
+        "\t\t//map process variable to expected task contract input",
+        "\t\tprocessInput: {",
+        "\t\t\ttype: $data.process.type !== undefined ? $data.process.type : null",
+        "\t\t}",
         "\t}",
         "}"
       ],
@@ -693,16 +1121,40 @@
       ],
       "exposed" : false
     },
+    "candidat" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.candidat_ref.link}}"
+      ],
+      "exposed" : false
+    },
     "taskId" : {
       "type" : "urlparameter",
       "value" : [
         "id"
       ],
       "exposed" : false
+    },
+    "avisData" : {
+      "type" : "json",
+      "value" : [
+        "[",
+        "    {",
+        "        \"avisKey\":\"positif\",",
+        "        \"avisDisplay\":\"Positif\"",
+        "    },",
+        "    ",
+        "    {",
+        "        \"avisKey\":\"negatif\",",
+        "        \"avisDisplay\":\"Négatif\"",
+        "    }",
+        "]"
+      ],
+      "exposed" : false
     }
   },
   "hasValidationError" : false,
-  "uuid" : "69422e9c-40d0-4608-a93d-a98a614d3228",
+  "uuid" : "64e5a57a-6f32-4849-940e-b03b786bf705",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

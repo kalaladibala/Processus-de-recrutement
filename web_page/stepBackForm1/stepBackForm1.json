@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "stepBackForm1",
   "name" : "stepBackForm1",
-  "lastUpdate" : 1684941366439,
+  "lastUpdate" : 1688652589991,
   "rows" : [
     [
       {
@@ -51,7 +51,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "{{ task.displayName }}"
+                  "value" : "Réévaluation CV"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -176,7 +176,7 @@
                   },
                   "required" : {
                     "type" : "constant",
-                    "value" : false
+                    "value" : true
                   },
                   "allowHTML" : {
                     "type" : "constant",

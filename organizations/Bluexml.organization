@@ -99,7 +99,7 @@
         <country>france</country>
         <website>https://www.bluexml.com/</website>
       </professionalData>
-      <password encrypted="false">bluxml</password>
+      <password encrypted="false">bluexml</password>
       <customUserInfoValues/>
     </user>
     <user userName="Nicholas Alexandre">

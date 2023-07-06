@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "scorecardForm",
   "name" : "scorecardForm",
-  "lastUpdate" : 1687266032459,
+  "lastUpdate" : 1688648572353,
   "rows" : [
     [
       {
@@ -151,8 +151,8 @@
                     "value" : ""
                   },
                   "hidden" : {
-                    "type" : "constant",
-                    "value" : false
+                    "type" : "expression",
+                    "value" : ""
                   },
                   "disabled" : {
                     "type" : "constant",
@@ -160,7 +160,7 @@
                   },
                   "required" : {
                     "type" : "constant",
-                    "value" : false
+                    "value" : true
                   },
                   "allowHTML" : {
                     "type" : "constant",
@@ -222,8 +222,8 @@
                     "type" : "variable"
                   },
                   "hidden" : {
-                    "type" : "constant",
-                    "value" : false
+                    "type" : "expression",
+                    "value" : "formInput.response !== \"oui\""
                   },
                   "cssClasses" : {
                     "type" : "constant",
@@ -373,8 +373,8 @@
                                 "value" : true
                               },
                               "hidden" : {
-                                "type" : "constant",
-                                "value" : false
+                                "type" : "expression",
+                                "value" : ""
                               },
                               "labelPosition" : {
                                 "type" : "constant",
@@ -411,6 +411,13 @@
                               "url" : {
                                 "type" : "constant",
                                 "value" : "../API/formFileUpload"
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "errorContent" : {
+                                "type" : "variable"
                               }
                             },
                             "reference" : "94d810ea-d84a-4315-b51a-d624dcfb9a7c",

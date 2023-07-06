@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "newForm5",
-  "name" : "newForm5",
-  "lastUpdate" : 1688484195450,
+  "id" : "decisionEntretienCodir",
+  "name" : "decisionEntretienCodir",
+  "lastUpdate" : 1688652311413,
   "rows" : [
     [
       {
@@ -11,7 +11,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "13755e15-9f89-4dce-ad49-570c70ee2197",
+        "reference" : "1a74ac56-e5c0-4157-a30f-752f017919aa",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -39,7 +39,7 @@
                 },
                 "text" : {
                   "type" : "interpolation",
-                  "value" : "{{ task.displayName }}"
+                  "value" : "Décision Entretien CODIR"
                 },
                 "alignment" : {
                   "type" : "constant",
@@ -48,9 +48,13 @@
                 "dimension" : {
                   "type" : "constant",
                   "value" : 12
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
                 }
               },
-              "reference" : "7bc663a6-eb2f-4ba1-bbd6-cb105d528497",
+              "reference" : "0f41f037-8ecd-4c85-9559-b37e4663bfea",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -98,7 +102,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "ce920480-9c6a-4432-9819-e298b1560b5b",
+              "reference" : "b04d3d31-0622-45ed-8702-40cd2d8c8e06",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -113,8 +117,17 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
-        "reference" : "b7d0171f-149d-4e3d-a81f-8ac5454867aa",
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          }
+        },
+        "reference" : "d166873d-9a03-4587-8d0a-7adc23394621",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -123,7 +136,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "f2d937ee-8668-4866-9d3d-5f6cc28db8b6",
+          "reference" : "56d833c3-57d3-4d90-bfe1-a8ff23971b58",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -151,7 +164,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Home"
+                    "value" : "Process"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -162,7 +175,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "24319738-94a1-492a-9ee5-7e65ad5a7a32",
+                "reference" : "3d6534ce-ea2f-4d99-880e-4e5ed235ee12",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -194,7 +207,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "ededbe64-14a9-459e-88e7-51b1103db2f0",
+                "reference" : "6a726817-78e2-46a8-84bf-c7f97dfdf0fe",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -202,10 +215,10 @@
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
+                        "md" : 3,
+                        "sm" : 3,
+                        "xs" : 3,
+                        "lg" : 3
                       },
                       "propertyValues" : {
                         "allowHtml" : {
@@ -217,8 +230,8 @@
                           "value" : false
                         },
                         "hidden" : {
-                          "type" : "expression",
-                          "value" : "!home.avis"
+                          "type" : "constant",
+                          "value" : false
                         },
                         "cssClasses" : {
                           "type" : "constant",
@@ -226,11 +239,11 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Avis"
+                          "value" : "Nom"
                         },
                         "text" : {
                           "type" : "interpolation",
-                          "value" : "{{home.avis}}"
+                          "value" : "{{candidat.nom}} {{candidat.prenom}}"
                         },
                         "alignment" : {
                           "type" : "constant",
@@ -253,149 +266,186 @@
                           "value" : 4
                         }
                       },
-                      "reference" : "a7253abc-dd99-4e0e-8f3d-c2371764f61d",
+                      "reference" : "b8e536dc-b07a-454e-a815-d965e0874dbb",
                       "hasValidationError" : false,
                       "id" : "pbText",
                       "description" : ""
-                    }
-                  ],
-                  [
+                    },
                     {
                       "type" : "component",
                       "dimension" : {
-                        "xs" : 12,
-                        "sm" : 12,
-                        "md" : 12,
-                        "lg" : 12
+                        "md" : 3,
+                        "sm" : 3,
+                        "xs" : 3,
+                        "lg" : 3
                       },
                       "propertyValues" : {
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "headers" : {
-                          "type" : "constant",
-                          "value" : [
-                            "Nom",
-                            "Prenom",
-                            "Poste",
-                            "Date de réception"
-                          ]
-                        },
-                        "content" : {
-                          "type" : "expression",
-                          "value" : "candidat"
-                        },
-                        "columnsKey" : {
-                          "type" : "expression",
-                          "value" : "nom, prenom , poste , dateDeReceptionCV|date"
-                        },
-                        "selectedRow" : {
-                          "type" : "variable"
-                        },
-                        "striped" : {
+                        "allowHtml" : {
                           "type" : "constant",
                           "value" : true
-                        },
-                        "condensed" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "bordered" : {
-                          "type" : "constant",
-                          "value" : false
-                        }
-                      },
-                      "reference" : "09ff4e20-73ab-47cf-adb8-d7c087b52044",
-                      "hasValidationError" : false,
-                      "id" : "pbTable"
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "dateFormat" : {
-                          "type" : "constant",
-                          "value" : "MM/dd/yyyy"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "labelWidth" : {
-                          "type" : "constant",
-                          "value" : 1
-                        },
-                        "readOnly" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Date E1"
-                        },
-                        "type" : {
-                          "type" : "constant"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "todayLabel" : {
-                          "type" : "constant",
-                          "value" : "Today"
                         },
                         "labelHidden" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "showToday" : {
+                        "hidden" : {
                           "type" : "constant",
-                          "value" : true
+                          "value" : false
                         },
-                        "labelPosition" : {
+                        "cssClasses" : {
                           "type" : "constant",
-                          "value" : "top"
+                          "value" : ""
                         },
-                        "placeholder" : {
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Poste"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{candidat.poste}}"
+                        },
+                        "alignment" : {
                           "type" : "constant",
-                          "value" : "Enter a date (mm/dd/yyyy)"
+                          "value" : "left"
                         },
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
                         },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "home.dateE1"
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
+                        }
+                      },
+                      "reference" : "6217c3ae-43e8-47f4-9fa8-f98c9646a0cf",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 3,
+                        "sm" : 3,
+                        "xs" : 3,
+                        "lg" : 3
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Avis"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{candidat.avis}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
                         },
                         "allowHTML" : {
                           "type" : "constant",
                           "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 4
                         }
                       },
-                      "reference" : "1760180b-e204-473c-a6bf-09d443552f62",
+                      "reference" : "36cb7671-7bd2-4c3c-a7a0-73d8637c5f51",
                       "hasValidationError" : false,
-                      "id" : "pbDatePicker",
+                      "id" : "pbText",
+                      "description" : ""
+                    },
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 3,
+                        "sm" : 3,
+                        "xs" : 3,
+                        "lg" : 3
+                      },
+                      "propertyValues" : {
+                        "allowHtml" : {
+                          "type" : "constant",
+                          "value" : true
+                        },
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Date Entretien technique"
+                        },
+                        "text" : {
+                          "type" : "interpolation",
+                          "value" : "{{process.dateE3|uiDate}}"
+                        },
+                        "alignment" : {
+                          "type" : "constant",
+                          "value" : "left"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "labelPosition" : {
+                          "type" : "constant",
+                          "value" : "top"
+                        },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 11
+                        }
+                      },
+                      "reference" : "40fe2658-f8d9-4ebe-9991-d579c910d3f9",
+                      "hasValidationError" : false,
+                      "id" : "pbText",
                       "description" : ""
                     }
                   ],
@@ -423,7 +473,7 @@
                         },
                         "required" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : true
                         },
                         "allowHTML" : {
                           "type" : "constant",
@@ -463,136 +513,13 @@
                         },
                         "selectedValue" : {
                           "type" : "variable",
-                          "value" : "home.status"
+                          "value" : "process.status"
                         }
                       },
-                      "reference" : "57d9987c-4058-4f61-87aa-bef90141a59b",
+                      "reference" : "fa3c5b67-8489-490e-8664-b731ed7ca2c5",
                       "hasValidationError" : false,
                       "id" : "pbRadioButtons"
                     }
-                  ]
-                ]
-              }
-            ],
-            [
-              {
-                "type" : "component",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "level" : {
-                    "type" : "constant",
-                    "value" : "Level 4"
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "Candidat"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "57b89e6e-39d5-4d81-aa66-205639f53ccf",
-                "hasValidationError" : false,
-                "id" : "pbTitle",
-                "description" : ""
-              }
-            ],
-            [
-              {
-                "type" : "container",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "repeatedCollection" : {
-                    "type" : "variable"
-                  },
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "43c3be3d-41e1-4f50-bb0b-0a23038c266c",
-                "hasValidationError" : false,
-                "id" : "pbContainer",
-                "rows" : [
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "allowHtml" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "expression",
-                          "value" : "!candidat.canal"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Canal"
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{candidat.canal}}"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        }
-                      },
-                      "reference" : "bb2cc06c-4afb-4475-92f4-4d84e5f48902",
-                      "hasValidationError" : false,
-                      "id" : "pbText",
-                      "description" : ""
-                    }
                   ],
                   [
                     {
@@ -604,299 +531,73 @@
                         "lg" : 12
                       },
                       "propertyValues" : {
-                        "allowHtml" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "!candidat.dateDeReceptionCV"
+                          "value" : "process.status !==  \"go\""
+                        },
+                        "dateFormat" : {
+                          "type" : "constant",
+                          "value" : "MM/dd/yyyy"
                         },
                         "cssClasses" : {
                           "type" : "constant",
                           "value" : ""
                         },
+                        "labelWidth" : {
+                          "type" : "constant",
+                          "value" : 1
+                        },
+                        "readOnly" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Date De Reception C V"
+                          "value" : "Date de l'entretien Codir"
                         },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{candidat.dateDeReceptionCV|uiDate}}"
+                        "type" : {
+                          "type" : "constant"
                         },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        }
-                      },
-                      "reference" : "6327a297-b371-4f7d-9275-bf7fb9659696",
-                      "hasValidationError" : false,
-                      "id" : "pbText",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "allowHtml" : {
+                        "required" : {
                           "type" : "constant",
                           "value" : true
+                        },
+                        "todayLabel" : {
+                          "type" : "constant",
+                          "value" : "Today"
                         },
                         "labelHidden" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "hidden" : {
-                          "type" : "expression",
-                          "value" : "!candidat.nom"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Nom"
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{candidat.nom}}"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        }
-                      },
-                      "reference" : "701492d8-0e4a-4701-9fcb-8e2137300f48",
-                      "hasValidationError" : false,
-                      "id" : "pbText",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "allowHtml" : {
+                        "showToday" : {
                           "type" : "constant",
                           "value" : true
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "expression",
-                          "value" : "!candidat.prenom"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Prenom"
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{candidat.prenom}}"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        }
-                      },
-                      "reference" : "253fec13-9c81-4273-80f3-4dd9eea101f5",
-                      "hasValidationError" : false,
-                      "id" : "pbText",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "allowHtml" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "expression",
-                          "value" : "!candidat.poste"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Poste"
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{candidat.poste}}"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        }
-                      },
-                      "reference" : "2ddacc2f-aa58-4940-b42a-f05e2c8a383c",
-                      "hasValidationError" : false,
-                      "id" : "pbText",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "allowHtml" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "expression",
-                          "value" : "!candidat.entreprise"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Entreprise"
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{candidat.entreprise}}"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "allowHTML" : {
-                          "type" : "constant",
-                          "value" : false
                         },
                         "labelPosition" : {
                           "type" : "constant",
                           "value" : "top"
                         },
-                        "labelWidth" : {
+                        "placeholder" : {
                           "type" : "constant",
-                          "value" : 4
-                        }
-                      },
-                      "reference" : "00b165de-5e74-4992-81da-86cab67ddb99",
-                      "hasValidationError" : false,
-                      "id" : "pbText",
-                      "description" : ""
-                    }
-                  ],
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "allowHtml" : {
-                          "type" : "constant",
-                          "value" : true
-                        },
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "expression",
-                          "value" : "!candidat.localisation"
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Localisation"
-                        },
-                        "text" : {
-                          "type" : "interpolation",
-                          "value" : "{{candidat.localisation}}"
-                        },
-                        "alignment" : {
-                          "type" : "constant",
-                          "value" : "left"
+                          "value" : "Enter a date (mm/dd/yyyy)"
                         },
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "process.dateE3"
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
-                      "reference" : "6a50d70a-89f0-4eab-91bd-2405691f9cdd",
+                      "reference" : "f96c3d0f-69e8-4eba-9883-aeaee9e77437",
                       "hasValidationError" : false,
-                      "id" : "pbText",
+                      "id" : "pbDatePicker",
                       "description" : ""
                     }
                   ]
@@ -978,7 +679,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "da3f3f01-6132-4829-b0fd-83444ec5708f",
+                "reference" : "e59b9a3c-bb3e-4991-a328-2da5b7a999b8",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -1030,7 +731,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "ef710959-fb73-4513-959b-8a28ea26cd1f",
+                "reference" : "ed515a0d-58e8-48b9-a24c-0afb304fcd60",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -1043,14 +744,14 @@
   ],
   "assets" : [
     {
-      "id" : "5c27bde4-0554-4628-bc2a-1709739df63e",
+      "id" : "ffc6cf1c-18ec-4c6e-aa22-72330accf7e4",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "774ca5bb-c690-4211-8e03-fee628c7d869",
+      "id" : "a206c4ee-9836-4415-b6d3-249af7d6793e",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
@@ -1059,6 +760,13 @@
   ],
   "inactiveAssets" : [ ],
   "variables" : {
+    "process" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.process_ref.link}}"
+      ],
+      "exposed" : false
+    },
     "task" : {
       "type" : "url",
       "value" : [
@@ -1084,12 +792,12 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.home && $data.candidat ){",
+        "if( $data.process && $data.candidat ){",
         "\treturn {",
-        "\t\t//map home variable to expected task contract input",
-        "\t\thomeInput: {",
-        "\t\t\tdateE1: $data.home.dateE1 !== undefined ? $data.home.dateE1 : null,",
-        "\t\t\tstatus: $data.home.status !== undefined ? $data.home.status : null",
+        "\t\t//map process variable to expected task contract input",
+        "\t\tprocessInput: {",
+        "\t\t\tdateE3: $data.process.dateE3 !== undefined ? $data.process.dateE3 : null,",
+        "\t\t\tstatus: $data.process.status !== undefined ? $data.process.status : null",
         "\t\t},",
         "\t\t//map candidat variable to expected task contract input",
         "\t\tcandidatInput: {",
@@ -1121,34 +829,26 @@
       ],
       "exposed" : false
     },
-    "home" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.home_ref.link}}"
-      ],
-      "exposed" : false
-    },
     "statusData" : {
       "type" : "json",
       "value" : [
         "[",
         "    {",
-        "        \"statusKey\":\"go\",",
-        "        \"statusDisplay\": \"Convocation 1er entretien\"",
+        "        \"statusKey\" : \"go\",",
+        "        \"statusDisplay\":\"Convocation pour le dernier entretien\"",
         "    },",
         "    ",
         "    {",
-        "        \"statusKey\":\"no go\",",
-        "        \"statusDisplay\": \"Refus candidat\"",
+        "        \"statusKey\" : \"no go\",",
+        "        \"statusDisplay\":\"Refus candidat\"",
         "    }",
-        "    ",
         "]"
       ],
       "exposed" : false
     }
   },
   "hasValidationError" : false,
-  "uuid" : "2ff8d047-fafe-4a2d-b845-a93db51957f0",
+  "uuid" : "1d253815-c175-4487-b350-bea6e76b15de",
   "type" : "form",
   "description" : "Page generated with Bonita UI designer"
 }

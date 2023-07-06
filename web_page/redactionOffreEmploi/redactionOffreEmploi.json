@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "redactionOffreEmploi",
   "name" : "redactionOffreEmploi",
-  "lastUpdate" : 1685438108310,
+  "lastUpdate" : 1688648628377,
   "rows" : [
     [
       {
@@ -160,7 +160,7 @@
                   },
                   "required" : {
                     "type" : "constant",
-                    "value" : false
+                    "value" : true
                   },
                   "allowHTML" : {
                     "type" : "constant",
@@ -222,8 +222,8 @@
                     "type" : "variable"
                   },
                   "hidden" : {
-                    "type" : "constant",
-                    "value" : false
+                    "type" : "expression",
+                    "value" : "formInput.reponse !== \"oui\""
                   },
                   "cssClasses" : {
                     "type" : "constant",
