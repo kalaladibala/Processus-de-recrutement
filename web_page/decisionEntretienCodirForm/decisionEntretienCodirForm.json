@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "decisionEntretienCodir",
-  "name" : "decisionEntretienCodir",
-  "lastUpdate" : 1688652311413,
+  "id" : "decisionEntretienCodirForm",
+  "name" : "decisionEntretienCodirForm",
+  "lastUpdate" : 1688674340637,
   "rows" : [
     [
       {
@@ -333,10 +333,10 @@
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 3,
-                        "sm" : 3,
-                        "xs" : 3,
-                        "lg" : 3
+                        "md" : 2,
+                        "sm" : 2,
+                        "xs" : 2,
+                        "lg" : 2
                       },
                       "propertyValues" : {
                         "allowHtml" : {
@@ -392,10 +392,10 @@
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 3,
-                        "sm" : 3,
-                        "xs" : 3,
-                        "lg" : 3
+                        "md" : 4,
+                        "sm" : 4,
+                        "xs" : 4,
+                        "lg" : 4
                       },
                       "propertyValues" : {
                         "allowHtml" : {
@@ -420,7 +420,7 @@
                         },
                         "text" : {
                           "type" : "interpolation",
-                          "value" : "{{process.dateE3|uiDate}}"
+                          "value" : "{{process.dateE2|uiDate}}"
                         },
                         "alignment" : {
                           "type" : "constant",
@@ -440,7 +440,7 @@
                         },
                         "labelWidth" : {
                           "type" : "constant",
-                          "value" : 11
+                          "value" : 12
                         }
                       },
                       "reference" : "40fe2658-f8d9-4ebe-9991-d579c910d3f9",

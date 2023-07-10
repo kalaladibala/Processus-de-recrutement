@@ -1,8 +1,8 @@
 {
   "modelVersion" : "2.3",
-  "id" : "decisionEntretienVisio",
-  "name" : "decisionEntretienVisio",
-  "lastUpdate" : 1688652644369,
+  "id" : "decisionCVForm",
+  "name" : "decisionCVForm",
+  "lastUpdate" : 1688674452640,
   "rows" : [
     [
       {
@@ -556,7 +556,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Date E1"
+                          "value" : "Date Entretien Viso"
                         },
                         "type" : {
                           "type" : "constant"

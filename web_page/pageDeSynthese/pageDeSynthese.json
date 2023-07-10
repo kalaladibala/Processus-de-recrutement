@@ -1,0 +1,267 @@
+{
+  "modelVersion" : "2.3",
+  "id" : "pageDeSynthese",
+  "name" : "pageDeSynthese",
+  "lastUpdate" : 1688655306125,
+  "rows" : [
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "7707b85e-640e-47b8-aa7b-4f9a7782c940",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "PAGE DE SYNTHÈSE"
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 1"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                }
+              },
+              "reference" : "dcdd0e54-7261-4176-97cc-af07ec0fd1e0",
+              "hasValidationError" : false,
+              "id" : "pbTitle"
+            }
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "c0ed4a88-4b83-41a3-a7a3-f76f7ceea4ca",
+        "hasValidationError" : false,
+        "id" : "pbContainer",
+        "rows" : [
+          [
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 10,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "headers" : {
+                  "type" : "constant",
+                  "value" : [
+                    "Canal",
+                    "nom",
+                    "prenom",
+                    "poste",
+                    "date reçu"
+                  ]
+                },
+                "content" : {
+                  "type" : "expression",
+                  "value" : "candidat"
+                },
+                "columnsKey" : {
+                  "type" : "constant",
+                  "value" : [
+                    "canal",
+                    "nom",
+                    "prenom",
+                    "poste",
+                    "dateDeReceptionCV|date"
+                  ]
+                },
+                "selectedRow" : {
+                  "type" : "variable"
+                },
+                "striped" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "condensed" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "bordered" : {
+                  "type" : "constant",
+                  "value" : false
+                }
+              },
+              "reference" : "d5dc684d-fe4b-4426-ba59-c5900036499a",
+              "hasValidationError" : false,
+              "id" : "pbTable"
+            },
+            {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 2,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "headers" : {
+                  "type" : "constant",
+                  "value" : [
+                    "statut"
+                  ]
+                },
+                "content" : {
+                  "type" : "expression",
+                  "value" : "Process"
+                },
+                "columnsKey" : {
+                  "type" : "constant",
+                  "value" : [
+                    "status"
+                  ]
+                },
+                "selectedRow" : {
+                  "type" : "variable"
+                },
+                "striped" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "condensed" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "bordered" : {
+                  "type" : "constant",
+                  "value" : false
+                }
+              },
+              "reference" : "a4eeb385-2495-42ac-8e8c-5165fff74fcd",
+              "hasValidationError" : false,
+              "id" : "pbTable"
+            }
+          ]
+        ]
+      }
+    ]
+  ],
+  "assets" : [
+    {
+      "id" : "07b20823-a484-462f-b7d9-37e93fe6150d",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "be8c36da-0d58-4f10-ad77-bfa90e10898f",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "variables" : {
+    "candidat" : {
+      "type" : "url",
+      "value" : [
+        "../API/bdm/businessData/com.company.model.Candidat?q=find&p=0&c=10"
+      ],
+      "exposed" : false
+    },
+    "Process" : {
+      "type" : "url",
+      "value" : [
+        "../API/bdm/businessData/com.company.model.Process?q=find&p=0&c=10"
+      ],
+      "exposed" : false
+    }
+  },
+  "hasValidationError" : false,
+  "uuid" : "93c3961f-d4b0-4635-8e38-f2a1b044934c",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer"
+}
