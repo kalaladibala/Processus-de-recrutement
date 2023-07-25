@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<applications xmlns="http://documentation.bonitasoft.com/application-xml-schema/1.0">
+    <application token="Recrutement" version="1.0" profile="User" homePage="home" state="ACTIVATED" layout="custompage_layoutBonita" theme="custompage_themeBonita">
+        <displayName>Processus de recrutement</displayName>
+        <applicationPages>
+            <applicationPage customPage="custompage_Home" token="home"/>
+            <applicationPage customPage="custompage_receptionCV" token="receptionCV"/>
+        </applicationPages>
+        <applicationMenus>
+            <applicationMenu applicationPage="home">
+                <displayName>Mon menu</displayName>
+            </applicationMenu>
+            <applicationMenu applicationPage="receptionCV">
+                <displayName>test</displayName>
+            </applicationMenu>
+        </applicationMenus>
+    </application>
+</applications>

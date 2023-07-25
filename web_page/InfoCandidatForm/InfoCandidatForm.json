@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "InfoCandidatForm",
   "name" : "InfoCandidatForm",
-  "lastUpdate" : 1688635639464,
+  "lastUpdate" : 1689778838032,
   "rows" : [
     [
       {
@@ -850,6 +850,27 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable"
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable"
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
                 "reference" : "3bf0a7d3-18c8-4c49-b2e8-3d568f485a1d",

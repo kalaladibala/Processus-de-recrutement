@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "Acceuil",
   "name" : "Acceuil",
-  "lastUpdate" : 1688563684784,
+  "lastUpdate" : 1689672416750,
   "rows" : [
     [
       {
@@ -102,7 +102,7 @@
                   },
                   "required" : {
                     "type" : "constant",
-                    "value" : false
+                    "value" : true
                   },
                   "allowHTML" : {
                     "type" : "constant",
@@ -223,6 +223,27 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable"
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable"
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
                 "reference" : "707b8c19-02f7-4a91-8733-7c1c365fb832",

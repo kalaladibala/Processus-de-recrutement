@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "decisionEntretienVisioForm",
   "name" : "decisionEntretienVisioForm",
-  "lastUpdate" : 1688674250532,
+  "lastUpdate" : 1689078093888,
   "rows" : [
     [
       {
@@ -508,7 +508,7 @@
                         },
                         "selectedValue" : {
                           "type" : "variable",
-                          "value" : "process.status"
+                          "value" : "candidat.statut"
                         }
                       },
                       "reference" : "64a16273-96ff-4eab-96ca-6eceb9011e3f",
@@ -528,7 +528,7 @@
                       "propertyValues" : {
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "process.status !== \"go\""
+                          "value" : "candidat.statut !== \"go\""
                         },
                         "dateFormat" : {
                           "type" : "constant",
@@ -792,11 +792,12 @@
         "\t\t//map process variable to expected task contract input",
         "\t\tprocessInput: {",
         "\t\t\tdateE2: $data.process.dateE2 !== undefined ? $data.process.dateE2 : null,",
-        "\t\t\tstatus: $data.process.status !== undefined ? $data.process.status : null",
+        "\t\t\t",
         "\t\t},",
+        "\t\t",
         "\t\t//map candidat variable to expected task contract input",
         "\t\tcandidatInput: {",
-        "\t\t\tpretention: $data.candidat.pretention !== undefined ? $data.candidat.pretention : null",
+        "\t\t\tstatut: $data.candidat.statut !== undefined ? $data.candidat.statut : null",
         "\t\t}",
         "\t}",
         "}"

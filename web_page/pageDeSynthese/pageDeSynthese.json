@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "pageDeSynthese",
   "name" : "pageDeSynthese",
-  "lastUpdate" : 1688655306125,
+  "lastUpdate" : 1689079163246,
   "rows" : [
     [
       {
@@ -105,7 +105,7 @@
               "dimension" : {
                 "xs" : 12,
                 "sm" : 12,
-                "md" : 10,
+                "md" : 12,
                 "lg" : 6
               },
               "propertyValues" : {
@@ -128,12 +128,13 @@
                     "nom",
                     "prenom",
                     "poste",
-                    "date reçu"
+                    "date reçu",
+                    "statut"
                   ]
                 },
                 "content" : {
                   "type" : "expression",
-                  "value" : "candidat"
+                  "value" : "Candidat"
                 },
                 "columnsKey" : {
                   "type" : "constant",
@@ -142,7 +143,8 @@
                     "nom",
                     "prenom",
                     "poste",
-                    "dateDeReceptionCV|date"
+                    "dateDeReceptionCV|date",
+                    "statut"
                   ]
                 },
                 "selectedRow" : {
@@ -162,63 +164,6 @@
                 }
               },
               "reference" : "d5dc684d-fe4b-4426-ba59-c5900036499a",
-              "hasValidationError" : false,
-              "id" : "pbTable"
-            },
-            {
-              "type" : "component",
-              "dimension" : {
-                "xs" : 12,
-                "sm" : 12,
-                "md" : 2,
-                "lg" : 6
-              },
-              "propertyValues" : {
-                "cssClasses" : {
-                  "type" : "constant",
-                  "value" : ""
-                },
-                "hidden" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "allowHTML" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "headers" : {
-                  "type" : "constant",
-                  "value" : [
-                    "statut"
-                  ]
-                },
-                "content" : {
-                  "type" : "expression",
-                  "value" : "Process"
-                },
-                "columnsKey" : {
-                  "type" : "constant",
-                  "value" : [
-                    "status"
-                  ]
-                },
-                "selectedRow" : {
-                  "type" : "variable"
-                },
-                "striped" : {
-                  "type" : "constant",
-                  "value" : true
-                },
-                "condensed" : {
-                  "type" : "constant",
-                  "value" : false
-                },
-                "bordered" : {
-                  "type" : "constant",
-                  "value" : false
-                }
-              },
-              "reference" : "a4eeb385-2495-42ac-8e8c-5165fff74fcd",
               "hasValidationError" : false,
               "id" : "pbTable"
             }
@@ -245,17 +190,10 @@
   ],
   "inactiveAssets" : [ ],
   "variables" : {
-    "candidat" : {
+    "Candidat" : {
       "type" : "url",
       "value" : [
         "../API/bdm/businessData/com.company.model.Candidat?q=find&p=0&c=10"
-      ],
-      "exposed" : false
-    },
-    "Process" : {
-      "type" : "url",
-      "value" : [
-        "../API/bdm/businessData/com.company.model.Process?q=find&p=0&c=10"
       ],
       "exposed" : false
     }

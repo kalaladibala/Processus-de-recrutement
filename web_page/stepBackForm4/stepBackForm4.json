@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "stepBackForm4",
   "name" : "stepBackForm4",
-  "lastUpdate" : 1685023223951,
+  "lastUpdate" : 1689926366100,
   "rows" : [
     [
       {
@@ -281,6 +281,27 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
+                  },
+                  "assign" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "responseStatusCode" : {
+                    "type" : "variable"
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable"
+                  },
+                  "closeOnSuccess" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "modalId" : {
+                    "type" : "constant",
+                    "value" : ""
                   }
                 },
                 "reference" : "30e23c4f-bea5-486c-a895-3504d978fa6b",

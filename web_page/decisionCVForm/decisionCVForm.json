@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "decisionCVForm",
   "name" : "decisionCVForm",
-  "lastUpdate" : 1688674452640,
+  "lastUpdate" : 1689077902491,
   "rows" : [
     [
       {
@@ -227,7 +227,7 @@
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 3,
+                        "md" : 2,
                         "sm" : 3,
                         "xs" : 3,
                         "lg" : 3
@@ -384,7 +384,7 @@
                         },
                         "labelWidth" : {
                           "type" : "constant",
-                          "value" : 5
+                          "value" : 6
                         }
                       },
                       "reference" : "04846d66-55d5-4d1b-a85a-b01147a356b0",
@@ -395,7 +395,7 @@
                     {
                       "type" : "component",
                       "dimension" : {
-                        "md" : 3,
+                        "md" : 4,
                         "sm" : 3,
                         "xs" : 4,
                         "lg" : 3
@@ -516,7 +516,7 @@
                         },
                         "selectedValue" : {
                           "type" : "variable",
-                          "value" : "process.status"
+                          "value" : "candidat.statut"
                         }
                       },
                       "reference" : "c7c1ff82-8dee-4e1d-8f60-ef17855fe538",
@@ -536,7 +536,7 @@
                       "propertyValues" : {
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "process.status !== \"go\""
+                          "value" : "candidat.statut !== \"go\""
                         },
                         "dateFormat" : {
                           "type" : "constant",
@@ -548,7 +548,7 @@
                         },
                         "labelWidth" : {
                           "type" : "constant",
-                          "value" : 1
+                          "value" : 2
                         },
                         "readOnly" : {
                           "type" : "constant",
@@ -800,11 +800,10 @@
         "\t\t//map process variable to expected task contract input",
         "\t\tprocessInput: {",
         "\t\t\tdateE1: $data.process.dateE1 !== undefined ? $data.process.dateE1 : null,",
-        "\t\t\tstatus: $data.process.status !== undefined ? $data.process.status : null",
         "\t\t},",
         "\t\t//map candidat variable to expected task contract input",
         "\t\tcandidatInput: {",
-        "\t\t\tpretention: $data.candidat.pretention !== undefined ? $data.candidat.pretention : null",
+        "\t\t\tstatut: $data.candidat.statur !== undefined ? $data.candidat.statut : null",
         "\t\t}",
         "\t}",
         "}"
@@ -852,7 +851,7 @@
     "test" : {
       "type" : "expression",
       "value" : [
-        "return process.status !== \"no go\";"
+        "return candidat.statut !== \"go\" "
       ],
       "exposed" : false
     }

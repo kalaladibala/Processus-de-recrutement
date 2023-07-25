@@ -1,0 +1,168 @@
+{
+  "modelVersion" : "2.3",
+  "properties" : [
+    {
+      "label" : "Interpret HTML",
+      "name" : "allowHTML",
+      "help" : "If you choose 'no', HTML code will be escaped instead of being interpreted in row's cells",
+      "type" : "boolean",
+      "defaultValue" : true,
+      "bond" : "constant"
+    },
+    {
+      "label" : "Headers",
+      "name" : "headers",
+      "caption" : "Comma-separated list",
+      "help" : "If you specify an expression, the result must be an array of strings",
+      "type" : "collection",
+      "defaultValue" : [
+        "Id",
+        "Name",
+        "Description",
+        "Date"
+      ],
+      "bond" : "expression"
+    },
+    {
+      "label" : "Data source",
+      "name" : "type",
+      "help" : "Variable for frontend paging and ordering or Bonita REST API URL for backend paging and ordering",
+      "type" : "choice",
+      "defaultValue" : "Bonita API",
+      "choiceValues" : [
+        "Variable",
+        "Bonita API"
+      ],
+      "bond" : "constant"
+    },
+    {
+      "label" : "URL",
+      "name" : "apiUrl",
+      "caption" : "A Bonita REST API URL",
+      "type" : "text",
+      "defaultValue" : "../API/",
+      "bond" : "expression"
+    },
+    {
+      "label" : "API request parameters",
+      "name" : "params",
+      "help" : "Additional request parameters added to the query string",
+      "type" : "text",
+      "bond" : "expression"
+    },
+    {
+      "label" : "Content",
+      "name" : "content",
+      "help" : "Array used to populate the table. Can be a list of objects. Use 'Column keys' to refine content",
+      "type" : "text",
+      "bond" : "expression"
+    },
+    {
+      "label" : "Columns key",
+      "name" : "columnsKey",
+      "caption" : "Use <a href=\"javascript:void(0);\" open-help=\"filters\" editor-mode=\"page\">Filters</a> to format the data (e.g. <span ng-non-bindable>columnKey|uiDate</span>)",
+      "help" : "When 'Content' is a list of objects, specifies the attributes to display in the table columns. These keys must not be a number, or start with a number",
+      "type" : "collection",
+      "bond" : "expression"
+    },
+    {
+      "label" : "Sortable columns",
+      "name" : "sortColumns",
+      "caption" : "List from column keys",
+      "help" : "BDM APIs are not yet sortable. For other APIs, test in the preview or refer to the BonitaBPM documentation 'REST API' pages",
+      "type" : "collection",
+      "bond" : "expression"
+    },
+    {
+      "label" : "Selected Row",
+      "name" : "selectedRow",
+      "type" : "text",
+      "bond" : "variable"
+    },
+    {
+      "label" : "Page size",
+      "name" : "pageSize",
+      "type" : "integer",
+      "defaultValue" : 10,
+      "bond" : "expression"
+    },
+    {
+      "label" : "Filter",
+      "name" : "filter",
+      "help" : "Bind to a Variable to filter the table 'Content'",
+      "type" : "text",
+      "bond" : "expression"
+    },
+    {
+      "label" : "Zebra-striping",
+      "name" : "striped",
+      "help" : "Alternating gray and transparent backgrounds",
+      "type" : "boolean",
+      "defaultValue" : true,
+      "bond" : "constant"
+    },
+    {
+      "label" : "Condensed",
+      "name" : "condensed",
+      "help" : "Condensed table with half padding",
+      "type" : "boolean",
+      "defaultValue" : true,
+      "bond" : "constant"
+    },
+    {
+      "label" : "Bordered",
+      "name" : "bordered",
+      "help" : "Add borders all around the table and between all the columns.",
+      "type" : "boolean",
+      "defaultValue" : true,
+      "bond" : "constant"
+    },
+    {
+      "label" : "modal Id",
+      "name" : "modalId",
+      "caption" : "modal id",
+      "help" : "Id of modal",
+      "type" : "text",
+      "bond" : "expression"
+    }
+  ],
+  "id" : "customDataTableModal",
+  "name" : "DataTableModal",
+  "lastUpdate" : 1689600019011,
+  "template" : "@customDataTableModal.tpl.html",
+  "controller" : "@customDataTableModal.ctrl.js",
+  "description" : "Table with pagination and filtering capabilities",
+  "custom" : true,
+  "assets" : [
+    {
+      "id" : "645d1a5f-c549-4d3e-9cc3-fb6796248f38",
+      "name" : "ui-bootstrap-tpls-0.13.0.min.js",
+      "type" : "js",
+      "order" : 2,
+      "external" : false
+    },
+    {
+      "id" : "3dd2bd9d-3ca0-4efb-a37c-59cf2d6cc8b4",
+      "name" : "bonita-lib-tpl-0.5.21.js",
+      "type" : "js",
+      "order" : 1,
+      "external" : false
+    },
+    {
+      "id" : "ad785add-f10d-433b-af39-7cdb8d9e4c5a",
+      "name" : "bonita-lib-0.5.21.css",
+      "type" : "css",
+      "order" : 3,
+      "external" : false
+    }
+  ],
+  "requiredModules" : [
+    "org.bonitasoft.templates",
+    "ui.bootstrap.pagination",
+    "template/pagination/pagination.html",
+    "org.bonitasoft.bonitable",
+    "org.bonitasoft.bonitable.sortable"
+  ],
+  "type" : "widget",
+  "hasHelp" : false
+}

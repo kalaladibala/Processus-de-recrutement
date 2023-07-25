@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "decisionEntretienCodirForm",
   "name" : "decisionEntretienCodirForm",
-  "lastUpdate" : 1688674340637,
+  "lastUpdate" : 1689066366544,
   "rows" : [
     [
       {
@@ -513,7 +513,7 @@
                         },
                         "selectedValue" : {
                           "type" : "variable",
-                          "value" : "process.status"
+                          "value" : "candidat.statut"
                         }
                       },
                       "reference" : "fa3c5b67-8489-490e-8664-b731ed7ca2c5",
@@ -533,7 +533,7 @@
                       "propertyValues" : {
                         "hidden" : {
                           "type" : "expression",
-                          "value" : "process.status !==  \"go\""
+                          "value" : "candidat.statut !==  \"go\""
                         },
                         "dateFormat" : {
                           "type" : "constant",
@@ -797,11 +797,10 @@
         "\t\t//map process variable to expected task contract input",
         "\t\tprocessInput: {",
         "\t\t\tdateE3: $data.process.dateE3 !== undefined ? $data.process.dateE3 : null,",
-        "\t\t\tstatus: $data.process.status !== undefined ? $data.process.status : null",
         "\t\t},",
         "\t\t//map candidat variable to expected task contract input",
         "\t\tcandidatInput: {",
-        "\t\t\tpretention: $data.candidat.pretention !== undefined ? $data.candidat.pretention : null",
+        "\t\t\tstatut: $data.candidat.statut !== undefined ? $data.candidat.statut : null",
         "\t\t}",
         "\t}",
         "}"
