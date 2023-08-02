@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "receptionCV1",
   "name" : "receptionCV",
-  "lastUpdate" : 1690210048966,
+  "lastUpdate" : 1690532741934,
   "rows" : [
     [
       {
@@ -695,7 +695,7 @@
     "Tache" : {
       "type" : "url",
       "value" : [
-        "../API/bpm/humanTask?c=10&p=0"
+        "../API/bpm/humanTask?c=10&p=0&f=state=ready"
       ],
       "exposed" : false
     },

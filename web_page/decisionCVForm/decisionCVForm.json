@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "decisionCVForm",
   "name" : "decisionCVForm",
-  "lastUpdate" : 1689077902491,
+  "lastUpdate" : 1690882564932,
   "rows" : [
     [
       {
@@ -152,47 +152,6 @@
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
-            [
-              {
-                "type" : "component",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "level" : {
-                    "type" : "constant",
-                    "value" : "Level 4"
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "Process"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "1e645d77-d586-4fc1-a9a4-ae261f7f9145",
-                "hasValidationError" : false,
-                "id" : "pbTitle",
-                "description" : ""
-              }
-            ],
             [
               {
                 "type" : "container",
@@ -841,7 +800,7 @@
         "    },",
         "    ",
         "    {",
-        "        \"statusKey\" : \"no go\",",
+        "        \"statusKey\" : \"no go bluexml\",",
         "        \"statusDisplay\":\"Refus candidat\"",
         "    }",
         "]"

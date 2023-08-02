@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "EntretienVisioForm",
   "name" : "EntretienVisioForm",
-  "lastUpdate" : 1688652161536,
+  "lastUpdate" : 1690380142335,
   "rows" : [
     [
       {
@@ -578,6 +578,10 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
                         }
                       },
                       "reference" : "68717a8c-dab1-4134-88b8-36574470d986",
@@ -708,12 +712,19 @@
                                 "value" : "$item.newValue"
                               },
                               "required" : {
-                                "type" : "expression",
-                                "value" : "!$item.id"
+                                "type" : "constant",
+                                "value" : true
                               },
                               "url" : {
                                 "type" : "constant",
                                 "value" : "../API/formFileUpload"
+                              },
+                              "allowHTML" : {
+                                "type" : "constant",
+                                "value" : false
+                              },
+                              "errorContent" : {
+                                "type" : "variable"
                               }
                             },
                             "reference" : "53c6e173-232e-4d0e-8870-11f07e8475a5",
@@ -869,6 +880,30 @@
                         "dimension" : {
                           "type" : "constant",
                           "value" : 12
+                        },
+                        "assign" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "url" : {
+                          "type" : "interpolation"
+                        },
+                        "responseStatusCode" : {
+                          "type" : "variable"
+                        },
+                        "dataFromSuccess" : {
+                          "type" : "variable"
+                        },
+                        "closeOnSuccess" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "dataFromError" : {
+                          "type" : "variable"
+                        },
+                        "modalId" : {
+                          "type" : "constant",
+                          "value" : ""
                         }
                       },
                       "reference" : "15422bdc-b74c-4e33-8cc9-3dbee2a5927a",

@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Bluexml">
-  <customUserInfoDefinitions/>
+  <customUserInfoDefinitions>
+    <customUserInfoDefinition>
+      <name>TacheRH</name>
+      <description>tâches effectuées par les membres de l'administration rh</description>
+    </customUserInfoDefinition>
+    <customUserInfoDefinition>
+      <name>TacheRM</name>
+      <description>tâches effectuées par les membres techniques </description>
+    </customUserInfoDefinition>
+    <customUserInfoDefinition>
+      <name>TacheCodir</name>
+      <description>tâches effectuées par les membres du codir</description>
+    </customUserInfoDefinition>
+  </customUserInfoDefinitions>
   <users>
     <user userName="Antoine Laurent ">
       <firstName>Antoine </firstName>
@@ -20,7 +33,20 @@
         <website>https://www.bluexml.com/</website>
       </professionalData>
       <password encrypted="false">bluexml</password>
-      <customUserInfoValues/>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>TacheRH</name>
+          <value></value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheRM</name>
+          <value></value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheCodir</name>
+          <value></value>
+        </customUserInfoValue>
+      </customUserInfoValues>
     </user>
     <user userName="Elise davenne ">
       <firstName>Elise</firstName>
@@ -40,7 +66,20 @@
         <website>https://www.bluexml.com/</website>
       </professionalData>
       <password encrypted="false">bluexml</password>
-      <customUserInfoValues/>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>TacheRH</name>
+          <value></value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheRM</name>
+          <value></value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheCodir</name>
+          <value></value>
+        </customUserInfoValue>
+      </customUserInfoValues>
     </user>
     <user userName="Eric Le Garec">
       <firstName>Eric</firstName>
@@ -60,7 +99,20 @@
         <website>https://www.bluexml.com/</website>
       </professionalData>
       <password encrypted="false">bluexml</password>
-      <customUserInfoValues/>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>TacheRH</name>
+          <value>Eric Le Garec</value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheRM</name>
+          <value>Eric Le Garec</value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheCodir</name>
+          <value>Eric Le Garec</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
     </user>
     <user userName="Henry Quenau">
       <firstName>Henry</firstName>
@@ -80,7 +132,20 @@
         <website>https://www.bluexml.com/</website>
       </professionalData>
       <password encrypted="false">bluexml</password>
-      <customUserInfoValues/>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>TacheRH</name>
+          <value></value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheRM</name>
+          <value></value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheCodir</name>
+          <value></value>
+        </customUserInfoValue>
+      </customUserInfoValues>
     </user>
     <user userName="Joel Kalala">
       <firstName>Joel</firstName>
@@ -100,7 +165,20 @@
         <website>https://www.bluexml.com/</website>
       </professionalData>
       <password encrypted="false">bluexml</password>
-      <customUserInfoValues/>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>TacheRH</name>
+          <value>Joel Kalala</value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheRM</name>
+          <value>Joel Kalala </value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheCodir</name>
+          <value>Joel Kalala</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
     </user>
     <user userName="Nicholas Alexandre">
       <firstName>Nicholas</firstName>
@@ -120,7 +198,20 @@
         <website>https://www.bluexml.com/</website>
       </professionalData>
       <password encrypted="false">bluexml</password>
-      <customUserInfoValues/>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>TacheRH</name>
+          <value></value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheRM</name>
+          <value>Nicolas Alexandre</value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheCodir</name>
+          <value>Nicolas Alexandre</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
     </user>
     <user userName="Pascal Dubois">
       <firstName>Pascal</firstName>
@@ -140,7 +231,20 @@
         <website>https://www.bluexml.com/</website>
       </professionalData>
       <password encrypted="false">bluexml</password>
-      <customUserInfoValues/>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>TacheRH</name>
+          <value></value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheRM</name>
+          <value>Pascal Dubois</value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheCodir</name>
+          <value>Pascal Dubois</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
     </user>
     <user userName="Prescilia Beguier">
       <firstName>Prescilia</firstName>
@@ -160,7 +264,20 @@
         <website>https://www.bluexml.com/</website>
       </professionalData>
       <password encrypted="false">bluexml</password>
-      <customUserInfoValues/>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>TacheRH</name>
+          <value>Prescilia Beguier</value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheRM</name>
+          <value>Prescilia Beguier</value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheCodir</name>
+          <value>Prescilia Beguier</value>
+        </customUserInfoValue>
+      </customUserInfoValues>
     </user>
     <user userName="Régis Baudus">
       <firstName>Régis </firstName>
@@ -180,7 +297,20 @@
         <website>https://www.bluexml.com/</website>
       </professionalData>
       <password encrypted="false">bluexml</password>
-      <customUserInfoValues/>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>TacheRH</name>
+          <value></value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheRM</name>
+          <value>Regis Baudus</value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheCodir</name>
+          <value></value>
+        </customUserInfoValue>
+      </customUserInfoValues>
     </user>
     <user userName="Ladislas Chevalier">
       <firstName>Ladislas</firstName>
@@ -200,7 +330,20 @@
         <website>https://www.bluexml.com/</website>
       </professionalData>
       <password encrypted="false">bluexml</password>
-      <customUserInfoValues/>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>TacheRH</name>
+          <value></value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheRM</name>
+          <value>Ladislas Chevalier</value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheCodir</name>
+          <value></value>
+        </customUserInfoValue>
+      </customUserInfoValues>
     </user>
     <user userName="Matthieu Vidot">
       <firstName>Mathieu</firstName>
@@ -220,7 +363,20 @@
         <website>https://www.bluexml.com/</website>
       </professionalData>
       <password encrypted="false">bluexml</password>
-      <customUserInfoValues/>
+      <customUserInfoValues>
+        <customUserInfoValue>
+          <name>TacheRH</name>
+          <value></value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheRM</name>
+          <value>Mathieu vidot</value>
+        </customUserInfoValue>
+        <customUserInfoValue>
+          <name>TacheCodir</name>
+          <value></value>
+        </customUserInfoValue>
+      </customUserInfoValues>
     </user>
   </users>
   <roles>
@@ -485,6 +641,24 @@
     </membership>
     <membership>
       <userName>Joel Kalala</userName>
+      <roleName>Administrator</roleName>
+      <groupName>codir</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Prescilia Beguier</userName>
+      <roleName>member</roleName>
+      <groupName>codir</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Prescilia Beguier</userName>
+      <roleName>member</roleName>
+      <groupName>rm</groupName>
+      <groupParentPath>/bluexml</groupParentPath>
+    </membership>
+    <membership>
+      <userName>Prescilia Beguier</userName>
       <roleName>Administrator</roleName>
       <groupName>bluexml</groupName>
     </membership>

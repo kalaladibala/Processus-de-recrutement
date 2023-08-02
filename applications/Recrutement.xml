@@ -4,14 +4,14 @@
         <displayName>Processus de recrutement</displayName>
         <applicationPages>
             <applicationPage customPage="custompage_Home" token="home"/>
-            <applicationPage customPage="custompage_receptionCV" token="receptionCV"/>
+            <applicationPage customPage="custompage_tableauDeBord" token="synthese"/>
         </applicationPages>
         <applicationMenus>
             <applicationMenu applicationPage="home">
-                <displayName>Mon menu</displayName>
+                <displayName>Acceuil</displayName>
             </applicationMenu>
-            <applicationMenu applicationPage="receptionCV">
-                <displayName>test</displayName>
+            <applicationMenu applicationPage="synthese">
+                <displayName>Tableau de Bord</displayName>
             </applicationMenu>
         </applicationMenus>
     </application>
