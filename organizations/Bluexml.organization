@@ -2,20 +2,20 @@
 <organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Bluexml">
   <customUserInfoDefinitions>
     <customUserInfoDefinition>
-      <name>TacheRH</name>
+      <name>TacheRRH</name>
       <description>tâches effectuées par les membres de l'administration rh</description>
     </customUserInfoDefinition>
     <customUserInfoDefinition>
-      <name>TacheRM</name>
-      <description>tâches effectuées par les membres techniques </description>
+      <name>TachesRM</name>
+      <description>tâches effectuées par les référents métiers </description>
     </customUserInfoDefinition>
     <customUserInfoDefinition>
-      <name>TacheCodir</name>
+      <name>TachesCodir</name>
       <description>tâches effectuées par les membres du codir</description>
     </customUserInfoDefinition>
   </customUserInfoDefinitions>
   <users>
-    <user userName="Antoine Laurent ">
+    <user userName="alaurent@bluexml.com">
       <firstName>Antoine </firstName>
       <lastName>Laurent</lastName>
       <title>Mr</title>
@@ -35,20 +35,20 @@
       <password encrypted="false">bluexml</password>
       <customUserInfoValues>
         <customUserInfoValue>
-          <name>TacheRH</name>
+          <name>TacheRRH</name>
           <value></value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheRM</name>
+          <name>TachesRM</name>
           <value></value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheCodir</name>
+          <name>TachesCodir</name>
           <value></value>
         </customUserInfoValue>
       </customUserInfoValues>
     </user>
-    <user userName="Elise davenne ">
+    <user userName="echan@bluexml.com">
       <firstName>Elise</firstName>
       <lastName>Davenne</lastName>
       <title>Mrs</title>
@@ -68,20 +68,20 @@
       <password encrypted="false">bluexml</password>
       <customUserInfoValues>
         <customUserInfoValue>
-          <name>TacheRH</name>
+          <name>TacheRRH</name>
           <value></value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheRM</name>
+          <name>TachesRM</name>
           <value></value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheCodir</name>
+          <name>TachesCodir</name>
           <value></value>
         </customUserInfoValue>
       </customUserInfoValues>
     </user>
-    <user userName="Eric Le Garec">
+    <user userName="elg@bluexml.com">
       <firstName>Eric</firstName>
       <lastName>Le Garec</lastName>
       <title>Mr</title>
@@ -101,20 +101,20 @@
       <password encrypted="false">bluexml</password>
       <customUserInfoValues>
         <customUserInfoValue>
-          <name>TacheRH</name>
+          <name>TacheRRH</name>
           <value>Eric Le Garec</value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheRM</name>
+          <name>TachesRM</name>
           <value>Eric Le Garec</value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheCodir</name>
+          <name>TachesCodir</name>
           <value>Eric Le Garec</value>
         </customUserInfoValue>
       </customUserInfoValues>
     </user>
-    <user userName="Henry Quenau">
+    <user userName="hqueneau@bluexml.com">
       <firstName>Henry</firstName>
       <lastName>Quenau</lastName>
       <title>Mr</title>
@@ -134,20 +134,20 @@
       <password encrypted="false">bluexml</password>
       <customUserInfoValues>
         <customUserInfoValue>
-          <name>TacheRH</name>
+          <name>TacheRRH</name>
           <value></value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheRM</name>
+          <name>TachesRM</name>
           <value></value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheCodir</name>
+          <name>TachesCodir</name>
           <value></value>
         </customUserInfoValue>
       </customUserInfoValues>
     </user>
-    <user userName="Joel Kalala">
+    <user userName="jkalaladibala@bluexml.com">
       <firstName>Joel</firstName>
       <lastName>Kalala</lastName>
       <title>Mr</title>
@@ -167,20 +167,20 @@
       <password encrypted="false">bluexml</password>
       <customUserInfoValues>
         <customUserInfoValue>
-          <name>TacheRH</name>
+          <name>TacheRRH</name>
           <value>Joel Kalala</value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheRM</name>
+          <name>TachesRM</name>
           <value>Joel Kalala </value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheCodir</name>
+          <name>TachesCodir</name>
           <value>Joel Kalala</value>
         </customUserInfoValue>
       </customUserInfoValues>
     </user>
-    <user userName="Nicholas Alexandre">
+    <user userName="nalexandre@bluexml.com">
       <firstName>Nicholas</firstName>
       <lastName>Alexandre</lastName>
       <title>Mr</title>
@@ -200,20 +200,20 @@
       <password encrypted="false">bluexml</password>
       <customUserInfoValues>
         <customUserInfoValue>
-          <name>TacheRH</name>
+          <name>TacheRRH</name>
           <value></value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheRM</name>
+          <name>TachesRM</name>
           <value>Nicolas Alexandre</value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheCodir</name>
+          <name>TachesCodir</name>
           <value>Nicolas Alexandre</value>
         </customUserInfoValue>
       </customUserInfoValues>
     </user>
-    <user userName="Pascal Dubois">
+    <user userName="pdubois@bluexml.com">
       <firstName>Pascal</firstName>
       <lastName>Dubois</lastName>
       <title>Mr</title>
@@ -233,20 +233,20 @@
       <password encrypted="false">bluexml</password>
       <customUserInfoValues>
         <customUserInfoValue>
-          <name>TacheRH</name>
+          <name>TacheRRH</name>
           <value></value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheRM</name>
+          <name>TachesRM</name>
           <value>Pascal Dubois</value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheCodir</name>
+          <name>TachesCodir</name>
           <value>Pascal Dubois</value>
         </customUserInfoValue>
       </customUserInfoValues>
     </user>
-    <user userName="Prescilia Beguier">
+    <user userName="pbeguier@bluexml.com">
       <firstName>Prescilia</firstName>
       <lastName>Beguier</lastName>
       <title>Mr</title>
@@ -266,20 +266,20 @@
       <password encrypted="false">bluexml</password>
       <customUserInfoValues>
         <customUserInfoValue>
-          <name>TacheRH</name>
+          <name>TacheRRH</name>
           <value>Prescilia Beguier</value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheRM</name>
+          <name>TachesRM</name>
           <value>Prescilia Beguier</value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheCodir</name>
+          <name>TachesCodir</name>
           <value>Prescilia Beguier</value>
         </customUserInfoValue>
       </customUserInfoValues>
     </user>
-    <user userName="Régis Baudus">
+    <user userName="rbaudu@bluexml.com">
       <firstName>Régis </firstName>
       <lastName>Baudus</lastName>
       <title>Mr</title>
@@ -299,20 +299,20 @@
       <password encrypted="false">bluexml</password>
       <customUserInfoValues>
         <customUserInfoValue>
-          <name>TacheRH</name>
+          <name>TacheRRH</name>
           <value></value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheRM</name>
+          <name>TachesRM</name>
           <value>Regis Baudus</value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheCodir</name>
+          <name>TachesCodir</name>
           <value></value>
         </customUserInfoValue>
       </customUserInfoValues>
     </user>
-    <user userName="Ladislas Chevalier">
+    <user userName="lchevalier@bluexml.com">
       <firstName>Ladislas</firstName>
       <lastName>chevalier</lastName>
       <title>Mr</title>
@@ -332,20 +332,20 @@
       <password encrypted="false">bluexml</password>
       <customUserInfoValues>
         <customUserInfoValue>
-          <name>TacheRH</name>
+          <name>TacheRRH</name>
           <value></value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheRM</name>
+          <name>TachesRM</name>
           <value>Ladislas Chevalier</value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheCodir</name>
+          <name>TachesCodir</name>
           <value></value>
         </customUserInfoValue>
       </customUserInfoValues>
     </user>
-    <user userName="Matthieu Vidot">
+    <user userName="mvidot@bluexml.com">
       <firstName>Mathieu</firstName>
       <lastName>vidot</lastName>
       <title>Mr</title>
@@ -365,15 +365,15 @@
       <password encrypted="false">bluexml</password>
       <customUserInfoValues>
         <customUserInfoValue>
-          <name>TacheRH</name>
+          <name>TacheRRH</name>
           <value></value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheRM</name>
+          <name>TachesRM</name>
           <value>Mathieu vidot</value>
         </customUserInfoValue>
         <customUserInfoValue>
-          <name>TacheCodir</name>
+          <name>TachesCodir</name>
           <value></value>
         </customUserInfoValue>
       </customUserInfoValues>
@@ -424,241 +424,241 @@
   </groups>
   <memberships>
     <membership>
-      <userName>Antoine Laurent </userName>
+      <userName>alaurent@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>conseil</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Elise davenne </userName>
+      <userName>echan@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>commerce</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Henry Quenau</userName>
+      <userName>hqueneau@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>cdpro</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Joel Kalala</userName>
+      <userName>jkalaladibala@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>rdp</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Nicholas Alexandre</userName>
+      <userName>nalexandre@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>cdpro</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Pascal Dubois</userName>
+      <userName>pdubois@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>cdpro</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Prescilia Beguier</userName>
+      <userName>pbeguier@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>rh</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Eric Le Garec</userName>
+      <userName>elg@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>cdpro</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Eric Le Garec</userName>
+      <userName>elg@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>codir</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Eric Le Garec</userName>
+      <userName>elg@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>fds</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Eric Le Garec</userName>
+      <userName>elg@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>conseil</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Eric Le Garec</userName>
+      <userName>elg@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>commerce</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Eric Le Garec</userName>
+      <userName>elg@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>ingé</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Eric Le Garec</userName>
+      <userName>elg@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>si</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Eric Le Garec</userName>
+      <userName>elg@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>rdp</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Ladislas Chevalier</userName>
+      <userName>lchevalier@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>ingé</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Matthieu Vidot</userName>
+      <userName>mvidot@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>si</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Nicholas Alexandre</userName>
+      <userName>nalexandre@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>codir</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Nicholas Alexandre</userName>
+      <userName>nalexandre@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>fds</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Nicholas Alexandre</userName>
+      <userName>nalexandre@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>conseil</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Nicholas Alexandre</userName>
+      <userName>nalexandre@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>commerce</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Nicholas Alexandre</userName>
+      <userName>nalexandre@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>ingé</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Nicholas Alexandre</userName>
+      <userName>nalexandre@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>si</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Nicholas Alexandre</userName>
+      <userName>nalexandre@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>rdp</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Pascal Dubois</userName>
+      <userName>pdubois@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>codir</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Pascal Dubois</userName>
+      <userName>pdubois@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>fds</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Pascal Dubois</userName>
+      <userName>pdubois@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>conseil</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Pascal Dubois</userName>
+      <userName>pdubois@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>commerce</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Pascal Dubois</userName>
+      <userName>pdubois@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>ingé</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Pascal Dubois</userName>
+      <userName>pdubois@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>si</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Pascal Dubois</userName>
+      <userName>pdubois@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>rdp</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Régis Baudus</userName>
+      <userName>rbaudu@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>ingé</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Régis Baudus</userName>
+      <userName>rbaudu@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>rm</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Ladislas Chevalier</userName>
+      <userName>lchevalier@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>rm</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Pascal Dubois</userName>
+      <userName>pdubois@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>rm</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Nicholas Alexandre</userName>
+      <userName>nalexandre@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>rm</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Joel Kalala</userName>
+      <userName>jkalaladibala@bluexml.com</userName>
       <roleName>Administrator</roleName>
       <groupName>codir</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Prescilia Beguier</userName>
+      <userName>pbeguier@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>codir</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Prescilia Beguier</userName>
+      <userName>pbeguier@bluexml.com</userName>
       <roleName>member</roleName>
       <groupName>rm</groupName>
       <groupParentPath>/bluexml</groupParentPath>
     </membership>
     <membership>
-      <userName>Prescilia Beguier</userName>
+      <userName>pbeguier@bluexml.com</userName>
       <roleName>Administrator</roleName>
       <groupName>bluexml</groupName>
     </membership>

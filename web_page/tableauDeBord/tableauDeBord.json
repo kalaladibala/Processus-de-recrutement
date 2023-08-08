@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "tableauDeBord",
   "name" : "tableauDeBord",
-  "lastUpdate" : 1690879689816,
+  "lastUpdate" : 1691053541929,
   "rows" : [
     [
       {
@@ -298,10 +298,10 @@
                   "type" : "constant",
                   "value" : [
                     "Canal",
+                    "Date reçu",
                     "Nom",
                     "Prenom",
                     "Poste",
-                    "Date reçu",
                     "Entreprise",
                     "Localisation",
                     "Prétention",
@@ -316,10 +316,10 @@
                   "type" : "constant",
                   "value" : [
                     "canal",
+                    "dateDeReceptionCV|date",
                     "nom",
                     "prenom",
                     "poste",
-                    "dateDeReceptionCV|date",
                     "entreprise",
                     "localisation",
                     "pretention",
