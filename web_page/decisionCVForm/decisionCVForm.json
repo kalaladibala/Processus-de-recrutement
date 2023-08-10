@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "decisionCVForm",
   "name" : "decisionCVForm",
-  "lastUpdate" : 1690882564932,
+  "lastUpdate" : 1691590981310,
   "rows" : [
     [
       {
@@ -800,8 +800,8 @@
         "    },",
         "    ",
         "    {",
-        "        \"statusKey\" : \"no go bluexml\",",
-        "        \"statusDisplay\":\"Refus candidat\"",
+        "        \"statusKey\" : \"no go candidat\",",
+        "        \"statusDisplay\":\"Refus du candidat\"",
         "    }",
         "]"
       ],

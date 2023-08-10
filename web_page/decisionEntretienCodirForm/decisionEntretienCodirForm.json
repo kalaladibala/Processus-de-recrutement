@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "decisionEntretienCodirForm",
   "name" : "decisionEntretienCodirForm",
-  "lastUpdate" : 1690882658592,
+  "lastUpdate" : 1691591648222,
   "rows" : [
     [
       {
@@ -839,7 +839,12 @@
         "    ",
         "    {",
         "        \"statusKey\" : \"no go bluexml\",",
-        "        \"statusDisplay\":\"Refus candidat\"",
+        "        \"statusDisplay\":\"Refus Bluexml \"",
+        "    },",
+        "    ",
+        "    {",
+        "        \"statusKey\":  \"no go candidat\",",
+        "        \"statutDisplay\": \" Refus du candidat\"",
         "    }",
         "]"
       ],
